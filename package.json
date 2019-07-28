@@ -18,6 +18,7 @@
   },
   "electronWebpack": {
     "staticSourceDirectory": "src/static",
+    "whiteListedModules": ["electron-redux"],
     "main": {
       "sourceDirectory": "src/main",
       "webpackConfig": "main.webpack.config.js"
@@ -28,6 +29,7 @@
     }
   },
   "dependencies": {
+    "electron-redux": "^1.4.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   }
