@@ -4,19 +4,31 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "dev": "electron-webpack dev",
+    "compile": "electron-webpack",
+    "dist": "yarn compile && electron-builder",
+    "dist:dir": "yarn dist --dir -c.compression=store -c.mac.identity=null"
   },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^5.0.8"
+    "@babel/preset-react": "^7.0.0",
+    "electron": "^5.0.8",
+    "electron-builder": "^21.0.11",
+    "electron-webpack": "^2.7.4",
+    "webpack": "~4.35.3"
+  },
+  "electronWebpack": {
+    "staticSourceDirectory": "src/static",
+    "main": {
+      "sourceDirectory": "src/main",
+      "webpackConfig": "main.webpack.config.js"
+    },
+    "renderer": {
+      "sourceDirectory": "src/renderer",
+      "webpackConfig": "renderer.webpack.config.js"
+    }
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }
