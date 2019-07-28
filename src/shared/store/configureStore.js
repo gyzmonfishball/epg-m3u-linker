@@ -17,38 +17,47 @@ import DevTools from '../../renderer/main/components/DevTools';
  * @param  {String} [scope='main|renderer']
  * @return {Object} store
  */
-export default function configureStore(initialState, scope = 'main') {
-  const router = routerMiddleware(hashHistory);
 
-  if (scope === 'renderer') {
+function configureMainStore() {
     middleware = [
-      forwardToMain,
-      router,
+        triggerAlias,
+        forwardToRenderer,
     ];
-  }
 
-  if (scope === 'main') {
+    const enhanced = [
+        applyMiddleware(...middleware),
+    ]
+
+    return compose(...enhanced);
+}
+
+function configureRendererStore() {
+
+    const router = routerMiddleware(hashHistory);
+
     middleware = [
-      triggerAlias,
-      forwardToRenderer,
+        forwardToMain,
+        router,
     ];
-  }
 
-  const enhanced = [
-    applyMiddleware(...middleware),
-  ];
+    const enhanced = [
+        applyMiddleware(...middleware),
+    ];
 
-  if (scope === 'renderer') {
     enhanced.push(DevTools.instrument());
     enhanced.push(persistState(
       window.location.href.match(
         /[?&]debug_session=([^&]+)\b/
       )
     ));
-  }
+    
+    return compose(...enhanced);
+}
 
+ export default function configureStore(initialState, scope = 'main') {
+
+  const enhancer = (scope == 'main') ? configureMainStore() : configureRendererStore();
   const rootReducer = getRootReducer(scope);
-  const enhancer = compose(...enhanced);
   const store = createStore(rootReducer, initialState, enhancer);
 
   if (!process.env.NODE_ENV && module.hot) {
