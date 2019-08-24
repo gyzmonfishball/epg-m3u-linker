@@ -66,11 +66,9 @@ function configureRendererStore() {
     });
   }
 
-  if (scope === 'main') {
-    replayActionMain(store);
-  } else {
-    replayActionRenderer(store);
-  }
+  scope === 'main' && replayActionMain(store);
+  scope === 'renderer' && replayActionRenderer(store);
+  
 
   return store;
 }
