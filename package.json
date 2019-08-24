@@ -20,7 +20,8 @@
   "electronWebpack": {
     "staticSourceDirectory": "src/static",
     "whiteListedModules": [
-      "electron-redux"
+      "electron-redux",
+      "react-router",
     ],
     "main": {
       "sourceDirectory": "src/main",
