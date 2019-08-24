@@ -15,13 +15,14 @@
     "electron": "^5.0.8",
     "electron-builder": "^21.0.11",
     "electron-webpack": "^2.7.4",
+    "redux-devtools-extension": "^2.13.8",
     "webpack": "~4.35.3"
   },
   "electronWebpack": {
     "staticSourceDirectory": "src/static",
     "whiteListedModules": [
-      "electron-redux",
-      "react-router",
+      "react-redux",
+      "react-router-dom"
     ],
     "main": {
       "sourceDirectory": "src/main",
@@ -34,11 +35,11 @@
   },
   "dependencies": {
     "electron-redux": "^1.4.0",
+    "normalize.css": "^8.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.1.0",
-    "react-router": "^5.0.1",
-    "react-router-redux": "^4.0.8",
-    "redux": "^4.0.4"
+    "react-router-dom": "^5.0.1",
+    "redux": "^3.4.0"
   }
 }

@@ -1,20 +1,25 @@
-import { remote } from 'electron';
 import React from 'react';
 import { render } from 'react-dom';
+import { HashRouter, Route } from 'react-router-dom';
+import { remote } from 'electron';
 import { Provider } from 'react-redux';
-import { Router, hashHistory } from 'react-router';
-import { syncHistoryWithStore } from 'react-router-redux';
 import configureStore from '../shared/store/configureStore';
+
 import routes from './routes';
 
+import history from './history';
+
+// css reset
+import 'normalize.css/normalize.css';
+
 const initialState = remote.getGlobal('state');
-
 const store = configureStore(initialState, 'renderer');
-const history = syncHistoryWithStore(hashHistory, store);
 
-render (
+render(
   <Provider store={store}>
-    <Router history={history} routes={routes} />
+    <HashRouter history={history}>
+      <Route component={routes} />
+    </HashRouter>
   </Provider>,
-  document.getElementById('root')
+  document.querySelector('#app'),
 );
