@@ -1,5 +1,18 @@
 import React from 'react';
+import { Row, Col } from 'antd';
 
-const HomePage = () => (<h2>EPG-M3U-LINKER</h2>);
+import Layout from './Layout';
+
+const HomePage = () => (
+    <Layout>
+        <div>
+            <Row>
+                <Col span={24}>
+                    Test2
+                </Col>
+            </Row>
+        </div>
+    </Layout>
+);
 
 export default HomePage;

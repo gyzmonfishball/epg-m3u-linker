@@ -1,6 +1,7 @@
 'use strict'
 
 import { app, BrowserWindow } from 'electron'
+import { connectDB, closeDB } from './db/init';
 import * as path from 'path'
 import { format as formatUrl } from 'url'
 
@@ -58,5 +59,8 @@ app.on('activate', () => {
 
 // create main BrowserWindow when electron is ready
 app.on('ready', () => {
+
+  global.db = connectDB();
+
   mainWindow = createMainWindow()
 })
