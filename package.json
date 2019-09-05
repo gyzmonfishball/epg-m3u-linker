@@ -2,7 +2,6 @@
   "name": "electron-quick-start",
   "version": "1.0.0",
   "description": "A minimal Electron application",
-  "main": "main.js",
   "scripts": {
     "dev": "electron-webpack dev",
     "compile": "electron-webpack",
@@ -12,8 +11,11 @@
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-runtime": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
-    "electron": "^5.0.8",
+    "@babel/runtime": "^7.5.5",
+    "electron": "^6.0.6",
     "electron-builder": "^21.0.11",
     "electron-webpack": "^2.7.4",
     "redux-devtools-extension": "^2.13.8",
@@ -26,11 +28,9 @@
       "react-router-dom"
     ],
     "main": {
-      "sourceDirectory": "src/main",
       "webpackConfig": "main.webpack.config.js"
     },
     "renderer": {
-      "sourceDirectory": "src/renderer",
       "webpackConfig": "renderer.webpack.config.js"
     }
   },

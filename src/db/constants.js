@@ -1,0 +1,7 @@
+export const DATA_TYPE_NULL = 'NULL';
+export const DATA_TYPE_INT = 'INTEGER';
+export const DATA_TYPE_REAL = 'REAL';
+export const DATA_TYPE_TEXT = 'TEXT';
+export const DATA_TYPE_BLOB = 'BLOB';
+
+export const DATA_TYPES = [DATA_TYPE_NULL, DATA_TYPE_INT, DATA_TYPE_REAL, DATA_TYPE_TEXT, DATA_TYPE_BLOB];
