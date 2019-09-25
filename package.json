@@ -38,6 +38,7 @@
     "antd": "^3.22.0",
     "electron-rebuild": "^1.8.6",
     "electron-redux": "^1.4.0",
+    "graphql": "^14.5.4",
     "normalize.css": "^8.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

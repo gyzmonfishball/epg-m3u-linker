@@ -34,9 +34,9 @@ export function ForeignKey (options = {}) {
     }
 
     this._string = () => 'FOREIGN KEY({column}) REFERENCES {refTable}({refColumn})'
-        .replace('{column}', _config.column.name())
+        .replace('{column}', _config.column)
         .replace('{refTable}', _config.ref.table.name())
-        .replace('{refColumn}', _config.ref.column.name());
+        .replace('{refColumn}', _config.ref.column);
 
     (() => Object.assign(_config, options))();
 }

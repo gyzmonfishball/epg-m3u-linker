@@ -1,3 +1,4 @@
+import { Column, ForeignKey } from './column';
 
 function Table(options = {}) {
 
@@ -7,13 +8,13 @@ function Table(options = {}) {
         foreignKeys: []
     }
 
-    const _columnsToString = columns => columns.map(column => column.String()).join(', ');
+    const _columnsToString = (columns, columnType) => columns.map(column => new columnType(column).String()).join(', ');
 
     this._create = (db) => {
         const query = 'CREATE TABLE IF NOT EXISTS {name} ({columns}{foreignKeys});'
             .replace('{name}', _config.name)
-            .replace('{columns}', _columnsToString(_config.columns))
-            .replace('{foreignKeys}', _config.foreignKeys.length ? `, ${_columnsToString(_config.foreignKeys)}` : '');
+            .replace('{columns}', _columnsToString(_config.columns, Column))
+            .replace('{foreignKeys}', _config.foreignKeys.length ? `, ${_columnsToString(_config.foreignKeys, ForeignKey)}` : '');
 
         db.instance().run(query, err => db.handleResponse(err, `Table ${_config.name} successfully created or skipped`));
     }
