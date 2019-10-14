@@ -11,12 +11,17 @@ const PostProcess = new Model({
         ]
     },
     graphQLConfig: {
-        name: 'PostProcess',
-        fields: [
-            { name: 'id', type: 'ID!'},
-            { name: 'name', type: 'String' },
-            { name: 'grab', type: 'String' },
-            { name: 'run', type: 'String' }
+        model: {
+            name: 'PostProcess',
+            fields: [
+                { name: 'id', type: 'ID!'},
+                { name: 'name', type: 'String' },
+                { name: 'grab', type: 'String' },
+                { name: 'run', type: 'String' }
+            ]
+        },
+        queries: [
+           { name: 'getPostProcess', params: 'id: ID!', type: 'PostProcess' } 
         ]
     }
 

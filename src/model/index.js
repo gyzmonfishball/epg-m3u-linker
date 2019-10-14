@@ -12,7 +12,6 @@ function Model(options = {}) {
     this._graphQLInstance = null;
 
     const _generateTable = () => new Table(_config.tblConfig);
-
     const _generateGraphQL = () => new GraphQL(_config.graphQLConfig);
 
     (() => {
