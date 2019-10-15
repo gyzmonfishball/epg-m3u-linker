@@ -1,5 +1,7 @@
 import { Column, ForeignKey } from './column';
 
+const tables = [];
+
 function Table(options = {}) {
 
     let _config = {
@@ -21,10 +23,15 @@ function Table(options = {}) {
 
     this._name = () => _config.name;
 
-    (() => Object.assign(_config, options))();
+    (() => {
+        Object.assign(_config, options);
+        tables.push(this);
+    })();
 }
 
 Table.prototype.create = function(db) { this._create(db); }
 Table.prototype.name = function() { return this._name() }
 
 export default Table;
+
+export tables;

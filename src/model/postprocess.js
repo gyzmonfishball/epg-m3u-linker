@@ -24,7 +24,6 @@ const PostProcess = new Model({
            { name: 'getPostProcess', params: 'id: ID!', type: 'PostProcess' } 
         ]
     }
-
 });
 
 export default PostProcess;
