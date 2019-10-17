@@ -1,6 +1,7 @@
 import { app, BrowserWindow } from 'electron'
 import DB from '../db';
-import tables from '../db/schema';
+import schema from '../db/schema';
+import { graphQLUtils } from '../graphql';
 import * as path from 'path'
 import { format as formatUrl } from 'url'
 
@@ -62,7 +63,8 @@ app.on('ready', () => {
   const db = DB({path: './main.db'});
   db.init();
 
-  tables.map(table => table.create(db));
+  console.log(graphQLUtils.query('{ getChannel(id: 1) { name } }')); //schema())
+  //schema.map(table => table.create(db));
 
   mainWindow = createMainWindow()
 })

@@ -26,6 +26,9 @@ const Channel = new Model({
         },
         queries: [
            { name: 'getChannel', params: 'id: ID!', type: 'Channel' } 
+        ],
+        resolvers: [
+            { key: 'getChannel', method: () => { return {name: 'hello world'}; } }
         ]
     }
 });

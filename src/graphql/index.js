@@ -28,22 +28,23 @@ function Schema () {
 
     const _queriesToText = () => `
         type Query {
-            ${queries.map().join('\n')}
+            ${queries.map(query => query).join('\n')}
         }
     `;
 
-    const _mutationsToText = () => `
+    const _mutationsToText = () => mutations.length > 0 ? `
         type Mutation {
-            ${mutations.map().join('\n')}
+            ${mutations.map(mutation => mutation).join('\n')}
         }
-    `;
-
-    const _modelsToText = () => models.map().join('\n');
+    `:'';
+    
+    const _modelsToText = () => models.map(model => model).join('\n');
 
     const _schemaToText = () => `
-            {models}
-            {queries}
-            {mutations}`
+        {queries}
+        {models}
+        {mutations}
+    `
         .replace('{models}', _modelsToText())
         .replace('{queries}', _queriesToText())
         .replace('{mutations}', _mutationsToText());
@@ -71,6 +72,27 @@ Resolver.prototype.add = function(resolver) { this._add(resolver); }
 
 export const resolver = new Resolver();
 
+function GraphQLUtils () {
+    this._query = (query) => graphql(schema.get(), query, resolverObj).then(response => console.log(response));
+    this._addQueries = (queries) => queries.map(query => schema.addQuery(query));
+    this._addMutations = (mutations) => mutations.map(mutation => schema.addMutation(mutation));
+    this._addResolvers = (resolvers) => resolvers.map(r => resolver.add(r));
+}
+
+GraphQLUtils.prototype = {
+    query: function(query) { return this._query(query); },
+    addQueries: function(queries) { return this._addQueries(queries); },
+    addMutations: function(mutations) { return this._addMutations(mutations); },
+    addResolvers: function(resolvers) { return this._addResolvers(resolvers); },
+    resolver: function() { return resolverObj; },
+    queries: function() { return queries; },
+    mutations: function() { return mutations; },
+    models: function() { return models; },
+    schema: function() { return schema.get(); }
+}
+
+export const graphQLUtils = new GraphQLUtils();
+
 function GraphQLBuilder (options = {}) {
 
     let _config = {
@@ -78,24 +100,16 @@ function GraphQLBuilder (options = {}) {
         queries: [],
         mutations: [],
         resolvers: []
-    }
+    };
 
-    const _addQueries = (queries) => queries.map(query => schema.addQuery(query));
-    const _addMutations = (mutations) => mutations.map(mutation => schema.addMutation(mutation));
-    const _addResolvers = (resolvers) => resolvers.map(resolver => resolver.add(resolver));
-
-    this._query = (query) => graphql(schema.get(), query, resolverObj).then(response => response);
-    
     (() => { 
         Object.assign(_config, options);
         _config.model && schema.addModel(_config.model);
-        _config.queries.length > 0 && _addQueries(_config.queries);
-        _config.mutations.length > 0 && _addMutations(_config.mutations);
-        _config.resolvers.length > 0 && _addResolvers(_config.resolvers);
+        _config.queries.length > 0 && graphQLUtils.addQueries(_config.queries);
+        _config.mutations.length > 0 && graphQLUtils.addMutations(_config.mutations);
+        _config.resolvers.length > 0 && graphQLUtils.addResolvers(_config.resolvers);
     })();
 
 }
-
-GraphQLBuilder.prototype.query = function(query) { return this._query(query); }
 
 export default GraphQLBuilder;
