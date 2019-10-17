@@ -65,7 +65,7 @@ Schema.prototype = {
 export const schema = new Schema();
 
 function Resolver () {
-    this._add = resolver => resolverObj[resolver.key] = resolver.method;
+    this._add = resolver => resolverObj = {...resolverObj, ...resolver};
 }
 
 Resolver.prototype.add = function(resolver) { this._add(resolver); }
