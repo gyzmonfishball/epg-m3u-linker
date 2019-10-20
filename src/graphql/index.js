@@ -1,6 +1,6 @@
 import { graphql, buildSchema } from 'graphql';
 
-const resolverObj = {};
+let resolverObj = {};
 const models = [];
 const queries = [];
 const mutations = [];
@@ -73,7 +73,7 @@ Resolver.prototype.add = function(resolver) { this._add(resolver); }
 export const resolver = new Resolver();
 
 function GraphQLUtils () {
-    this._query = (query) => graphql(schema.get(), query, resolverObj).then(response => console.log(response));
+    this._query = (query) => graphql(schema.get(), query, resolverObj);
     this._addQueries = (queries) => queries.map(query => schema.addQuery(query));
     this._addMutations = (mutations) => mutations.map(mutation => schema.addMutation(mutation));
     this._addResolvers = (resolvers) => resolvers.map(r => resolver.add(r));

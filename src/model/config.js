@@ -14,7 +14,10 @@ const Config = new Model({
             { name: 'skip', type: 'TEXT' },
             { name: 'timespan', type: 'TEXT' },
             { name: 'c_update', type: 'TEXT' },
-            { name: 'channel_id', type: 'INTEGER' }
+        ],
+        foreignKeys: [
+            { column: 'postprocess_id', ref: { table: 'tbl_webgrabpostprocess', column: 'id' } },
+            { column: 'retry_id', ref: { table: 'tbl_webgrabretry', column: 'id' } },
         ]
     },
     graphQLConfig: {
@@ -31,7 +34,7 @@ const Config = new Model({
                 { name: 'skip', type: 'String' },
                 { name: 'timespan', type: 'String' },
                 { name: 'cUpdate', type: 'String' },
-                { name: 'channel', type: 'Channel' }
+                { name: 'channels', type: '[Channel!]!' }
             ]
         },
         queries: [

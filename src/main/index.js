@@ -63,8 +63,8 @@ app.on('ready', () => {
   const db = DB({path: './main.db'});
   db.init();
 
-  console.log(graphQLUtils.query('{ getChannel(id: 1) { name } }')); //schema())
-  //schema.map(table => table.create(db));
+  //graphQLUtils.query('{ getChannel(id: 1) { name } }').then(response => console.log(response)); //schema())
+  schema.map(table => table.create(db));
 
   mainWindow = createMainWindow()
 })

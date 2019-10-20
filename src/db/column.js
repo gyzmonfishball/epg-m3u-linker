@@ -35,7 +35,7 @@ export function ForeignKey (options = {}) {
 
     this._string = () => 'FOREIGN KEY({column}) REFERENCES {refTable}({refColumn})'
         .replace('{column}', _config.column)
-        .replace('{refTable}', _config.ref.table.name())
+        .replace('{refTable}', _config.ref.table)
         .replace('{refColumn}', _config.ref.column);
 
     (() => Object.assign(_config, options))();
@@ -43,3 +43,13 @@ export function ForeignKey (options = {}) {
 
 ForeignKey.prototype.String = function() { return this._string() };
 
+export function MultiPrimaryKey (fields = []) {
+
+    let _fields = []
+
+    this._string = () => 'PRIMARY KEY ({fields})'.replace('{fields}', _fields.map(field => field).join(', '));
+
+    (() => _fields = [...fields])();
+}
+
+MultiPrimaryKey.prototype.String = function() { return this._string() };
