@@ -2,13 +2,17 @@ import { app, BrowserWindow } from 'electron'
 import DB from '../db';
 import schema from '../db/schema';
 import { graphQLUtils } from '../graphql';
-import * as path from 'path'
-import { format as formatUrl } from 'url'
+import * as path from 'path';
+import { format as formatUrl } from 'url';
+import { initStore } from './store';
 
-const isDevelopment = process.env.NODE_ENV !== 'production'
+const isDevelopment = process.env.NODE_ENV !== 'production';
 
 // global reference to mainWindow (necessary to prevent window from being garbage collected)
 let mainWindow
+
+/* Global variables definition */
+global.state = {};
 
 function createMainWindow() {
   const window = new BrowserWindow({webPreferences: {nodeIntegration: true}})
@@ -58,13 +62,16 @@ app.on('activate', () => {
 })
 
 // create main BrowserWindow when electron is ready
-app.on('ready', () => {
+app.on('ready', async () => {
 
   const db = DB({path: './main.db'});
   db.init();
 
   //graphQLUtils.query('{ getChannel(id: 1) { name } }').then(response => console.log(response)); //schema())
   schema.map(table => table.create(db));
+
+  // Initialise the store
+  await initStore();
 
   mainWindow = createMainWindow()
 })

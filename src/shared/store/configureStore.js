@@ -39,11 +39,10 @@ export default function configureStore(initialState, scope = 'main') {
     applyMiddleware(...middleware),
   ));
 
-  if (scope === 'main') {
+  if (scope === 'main')
     replayActionMain(store);
-  } else {
+  else 
     replayActionRenderer(store);
-  }
 
   return store;
 }
