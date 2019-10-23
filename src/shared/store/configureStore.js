@@ -1,5 +1,6 @@
 import { createStore, applyMiddleware } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
+import createSagaMiddleware from 'redux-saga';
 import {
   forwardToMain,
   forwardToRenderer,
@@ -8,7 +9,9 @@ import {
   triggerAlias,
 } from 'electron-redux';
 import getRootReducer from '../../main/reducers';
+import rootSaga from '../../main/sagas';
 
+const sagaMiddleware = createSagaMiddleware();
 
 /**
  * @param  {Object} initialState
@@ -16,7 +19,7 @@ import getRootReducer from '../../main/reducers';
  * @return {Object} store
  */
 export default function configureStore(initialState, scope = 'main') {
-  let middleware = [];
+  let middleware = [sagaMiddleware];
 
   if (scope === 'renderer') {
     middleware = [
@@ -43,6 +46,8 @@ export default function configureStore(initialState, scope = 'main') {
     replayActionMain(store);
   else 
     replayActionRenderer(store);
+
+  sagaMiddleware.run(rootSaga);
 
   return store;
 }
