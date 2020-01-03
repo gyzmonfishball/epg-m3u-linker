@@ -1,0 +1,1683 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<tv generator-info-name="WebGrab+Plus/w MDB &amp; REX Postprocess -- version 1.1.1/55.27 -- Jan van Straaten" generator-info-url="http://www.webgrabplus.com">
+  <channel id="0201">
+    <display-name lang="fr">TF1</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0203">
+    <display-name lang="fr">France 2</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0205">
+    <display-name lang="fr">France 3</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0221">
+    <display-name lang="fr">France 4</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0207">
+    <display-name lang="fr">France 5</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0206">
+    <display-name lang="fr">Canal+</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0208">
+    <display-name lang="fr">M6</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0214">
+    <display-name lang="fr">Arte</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0216">
+    <display-name lang="fr">D8</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0217">
+    <display-name lang="fr">W9</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0218">
+    <display-name lang="fr">TMC</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0219">
+    <display-name lang="fr">NT1</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0220">
+    <display-name lang="fr">NRJ12</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0224">
+    <display-name lang="fr">D17</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0225">
+    <display-name lang="fr">Gulli</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0226">
+    <display-name lang="fr">France Ô</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0227">
+    <display-name lang="fr">HD1</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0229">
+    <display-name lang="fr">6Ter</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0230">
+    <display-name lang="fr">Numéro 23</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0231">
+    <display-name lang="fr">RMC Découverte</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0233">
+    <display-name lang="fr">RTL9</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0234">
+    <display-name lang="fr">TV5 MONDE</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0210">
+    <display-name lang="fr">RTS Un</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0212">
+    <display-name lang="fr">RTS Deux</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0223">
+    <display-name lang="fr">i&gt;TELE</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0228">
+    <display-name lang="fr">L'Equipe 21</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0238">
+    <display-name lang="fr">Montagne TV</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0236">
+    <display-name lang="fr">France 24</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0239">
+    <display-name lang="fr">Cartoon Network</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <channel id="0237">
+    <display-name lang="fr">euronews</display-name>
+    <url>http://www.horizon.tv</url>
+  </channel>
+  <programme start="20151126170000 +0100" stop="20151126180000 +0100" channel="0201">
+    <title lang="fr">Quatre mariages pour une lune de miel</title>
+    <desc lang="fr">Quatre jeunes femmes vont mettre en compétition le plus beau jour de leur vie, celui qu'elles attendent depuis des années : leur mariage ! Elles ne se connaissent pas mais ont accepté ce jour-là de se faire juger par les autres. A chaque épisode, alors que l'une d'entre elles se fait passer la bague au doigt, les trois autres, invitées à la cérémonie et à la soirée, vont devoir noter le mariage sur quatre critères : le lieu et sa décoration, la qualité du repas, l'ambiance générale et, bien entendu, la robe ! Une invitation pas tout à fait comme les autres car toutes sont en compétition et convoitent le titre de \"meilleur mariage\". Le couple obtenant les meilleures notes remportera la lune de miel de ses rêves. Lequel de ces mariages sera le mieux noté ? Quelle mariée recevra le plus de compliments ? Chaque semaine : quatre mariages... pour une seule lune de miel !.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126180000 +0100" stop="20151126190000 +0100" channel="0201">
+    <title lang="fr">Bienvenue à l'hôtel</title>
+    <desc lang="fr">Ils se sont lancé un pari fou : tenir un hôtel. Et pour ces quatre couples de passionnés, l'hôtellerie est bien plus qu'un métier, c'est toute une vie ! Pour la première fois, ces propriétaires vont prendre la route pour aller tester et juger les établissements de leurs confrères, à tour de rôle. Tous sont persuadés d'avoir le meilleur hôtel mais, cette fois, leurs clients sont des experts. Ces concurrents très exigeants vont les noter sur plusieurs critères : le cadre et la situation de l'établissement, l'accueil et les prestations, la qualité des extras et la chambre. Rien ne va leur échapper ! Sans oublier le rapport qualité/prix, car à la fin de leur séjour, les couples invités devront payer le tarif qui leur semble le plus juste. Tous découvriront leurs notes et le contenu de l'enveloppe lors de la finale de vendredi. Qui obtiendra le titre de meilleur hôtel de la semaine et la somme de 3 000 euros ?.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126190000 +0100" stop="20151126195500 +0100" channel="0201">
+    <title lang="fr">Money Drop</title>
+    <desc lang="fr">Laurence Boccolini accueille un couple de candidats. Leur but : essayer de conserver 250 000 euros jusqu'au bout du jeu. La bonne nouvelle : ils pourront même gagner jusqu'à 500 000 euros ! La règle est simple, les candidats doivent répondre à huit questions de culture générale. A chaque question, quatre trappes, quatre propositions de réponses. A eux de miser la totalité de leur argent sur une ou plusieurs trappes. Mais attention : les trappes correspondant aux mauvaises réponses basculeront et feront disparaître définitivement l'argent misé. Seul l'argent placé sur la bonne trappe sera sauvé. Les candidats devront miser, en plus des liasses, un lingot d'or. S'ils arrivent à le conserver jusqu'au début de la cinquième question, ils pourront alors doubler les gains lors de la huitième et ultime question et ainsi gagner jusqu'à 500 000 euros ! Quelle stratégie les candidats vont-ils privilégier ? Parviendront-ils à garder leur sang-froid pour conserver leurs gains et le lingot d'or ?.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126195500 +0100" stop="20151126200000 +0100" channel="0201">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques pour la journée et les jours à venir.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126200000 +0100" stop="20151126203000 +0100" channel="0201">
+    <title lang="fr">Journal</title>
+    <desc lang="fr">Bulletin d'informations présenté par Gilles Bouleau.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126203000 +0100" stop="20151126203500 +0100" channel="0201">
+    <title lang="fr">Solutions pour le climat</title>
+    <desc lang="fr">Magazine.(n)</desc>
+    <category lang="fr">LOISIRS</category>
+  </programme>
+  <programme start="20151126203500 +0100" stop="20151126204000 +0100" channel="0201">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques pour la journée et les jours à venir.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126204000 +0100" stop="20151126204500 +0100" channel="0201">
+    <title lang="fr">Nos chers voisins</title>
+    <desc lang="fr">Familles avec enfants, célibataires, colocs fêtards, vieux ronchons... La vie et les relations de voisinage des habitants d'un immeuble qui se croisent devant le palier et dans l'ascenseur.(n)</desc>
+    <credits>
+      <actor>Martin Lamotte</actor>
+      <actor>Gil Alma</actor>
+      <actor>Raphael Boshart</actor>
+      <actor>Pauline Chappey</actor>
+      <actor>Jean-Charles Deval</actor>
+      <actor>Issa Doumbia</actor>
+      <actor>Damien Ferdel</actor>
+      <actor>Joy Esther</actor>
+      <actor>Julien Frison</actor>
+      <actor>Talina Boyaci</actor>
+    </credits>
+    <date>2012</date>
+    <category lang="fr">TV DRAME</category>
+  </programme>
+  <programme start="20151126204500 +0100" stop="20151126205500 +0100" channel="0201">
+    <title lang="fr">C'est Canteloup</title>
+    <desc lang="fr">Chaque soir, du lundi au vendredi, Nicolas Canteloup revisite avec impertinence l'actualité du jour en public avec la complicité de Nikos Aliagas. Et tous les vendredis, ils accueillent en plateau une personnalité ! Détournements d'images d'actualité, parodies, interviews décalées, l'humoriste propose une satire des faits marquants de la journée avec, pour signature, ses imitations des personnages qui font l'événement dans le monde de la politique, du spectacle et des médias. Avec \"C'est Canteloup !\", découvrez l'information sous un autre jour !.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126205500 +0100" stop="20151126220000 +0100" channel="0201">
+    <title lang="fr">Profilage</title>
+    <sub-title lang="fr">Résiliences</sub-title>
+    <desc lang="fr">Alain Petrelle, ancien de la Criminelle, est retrouvé criblé de balles, entre la vie et la mort, son fils de 18 ans assassiné à ses côtés. Qui pouvait en vouloir autant à un ancien flic, au point de tuer son enfant ? Peut-être un proche du \"tueur aux fleurs\", violeur et tueur de femmes, multirécidiviste, arrêté par Petrelle sept ans plus tôt ? Alors que Chloé découvre que sa fille dialogue en secret avec un adulte sur Internet, Dimitri rencontre pour la première fois Lucas, le fils de Rocher.(n)</desc>
+    <credits>
+      <director>Chris Briant</director>
+      <actor>Odile Vuillemin</actor>
+      <actor>Jean-Michel Martial</actor>
+      <actor>Philippe Bas</actor>
+      <actor>Raphael Ferret</actor>
+      <actor>Sophie De Furst</actor>
+      <actor>Fanie Zanini</actor>
+      <actor>Valerie Dashwood</actor>
+      <actor>Nathan Georgelin</actor>
+      <actor>Benjamin Bourgois</actor>
+      <actor>Virginie Caliari</actor>
+    </credits>
+    <date>2015</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.6.</episode-num>
+  </programme>
+  <programme start="20151126220000 +0100" stop="20151126230000 +0100" channel="0201">
+    <title lang="fr">Profilage</title>
+    <sub-title lang="fr">OVNI</sub-title>
+    <desc lang="fr">Enquête du troisième type pour Chloé et Rocher : le corps de Véronique Cartier est retrouvé désarticulé au beau milieu d'un champ, après avoir subi une chute de plusieurs mètres. D'où-t-elle bien pu tomber, au milieu de ce champ tout plat ? Chloé et Rocher essaient de démêler le vrai du faux, quand Hyppolite les informe que l'armée a placé la DPJ sur écoute...(n)</desc>
+    <credits>
+      <director>Simon Astier</director>
+      <actor>Odile Vuillemin</actor>
+      <actor>Jean-Michel Martial</actor>
+      <actor>Philippe Bas</actor>
+      <actor>Raphael Ferret</actor>
+      <actor>Sophie De Furst</actor>
+      <actor>Valerie Dashwood</actor>
+      <actor>Nathan Georgelin</actor>
+      <actor>Benjamin Bourgois</actor>
+      <actor>Julia Piaton</actor>
+      <actor>Aurelia Poirier</actor>
+    </credits>
+    <date>2015</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.7.</episode-num>
+  </programme>
+  <programme start="20151126230000 +0100" stop="20151127000000 +0100" channel="0201">
+    <title lang="fr">Profilage</title>
+    <sub-title lang="fr">Disparus</sub-title>
+    <desc lang="fr">Tension maximum pour l'équipe de Rocher et Chloé : Quentin, huit ans, et Manon, 18 mois, ont disparu de la chambre d'hôtel où leurs parents, Claire et Bastien Laffont, en vacances à Paris, les avaient laissés quelques heures sans surveillance pour aller déjeuner en amoureux. Un enlèvement prémédité pour le compte d'un réseau pédophile ? Si la piste reste malheureusement crédible, Chloé cherche à en savoir plus sur l'emploi du temps des parents car, dans ces affaires, les statistiques démontrent qu'ils sont le plus souvent impliqués.(n)</desc>
+    <credits>
+      <actor>Odile Vuillemin</actor>
+      <actor>Jean-Michel Martial</actor>
+      <actor>Vanessa Valence</actor>
+      <actor>Raphael Ferret</actor>
+      <actor>Valerie Dashwood</actor>
+      <actor>Philippe Bas</actor>
+      <actor>Benjamin Baroche</actor>
+      <actor>Nicolas Moreau</actor>
+      <actor>Valerie Decobert</actor>
+      <actor>Mikael Fitoussi</actor>
+      <actor>Julien Despaux</actor>
+    </credits>
+    <date>2012</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.4.</episode-num>
+  </programme>
+  <programme start="20151126162000 +0100" stop="20151126172000 +0100" channel="0203">
+    <title lang="fr">Comment ça va bien</title>
+    <sub-title lang="fr">Comment ça va bien !</sub-title>
+    <desc lang="fr">Ce magazine de l'après-midi traite de l'art de vivre au quotidien sous la forme de tests réalisés par l'équipe de Stéphane Bern. Stéphane Bern, entouré de six spécialistes, propose de tester des situations, des services, des pratiques, des comportements, des modes de vie et d'échanger des expériences afin de donner aux téléspectateurs des informations et des conseils pour améliorer leur quotidien. Tous les thèmes seront passés en revue dans l'émission : vie quotidienne, beauté/bien-être, jeunesse, animaux, maison, décoration, jardinage, cuisine, mode, famille, planète, tendances, loisirs et web. La rédaction de l'émission, composée de deux équipes, mène l'enquête avec des spécialistes sur tous les éléments et objets qui composent notre quotidien. De vraies investigations pour garantir aux téléspectateurs des informations sérieuses.(n)</desc>
+    <category lang="fr">LOISIRS</category>
+  </programme>
+  <programme start="20151126172000 +0100" stop="20151126181000 +0100" channel="0203">
+    <title lang="fr">Dans la peau d'un chef</title>
+    <desc lang="fr">Christophe Michalak fait un pari fou : transformer deux amateurs de cuisine, sans formation et qui ne cuisinent que pour leur plaisir, en commis de haut vol, capables de réaliser en moins d'une heure un plat que l'on pourrait servir dans un restaurant. Pour relever ce défi, il convie chaque semaine un nouveau chef étoilé. Mais nos deux chefs partent avec un handicap de taille : ils n'ont pas le droit de toucher à quoi que ce soit en cuisine ! Seuls leurs commis vont mettre la main à la pâte. Nos deux candidats se retrouvent donc, le temps de l'émission, dans la peau d'un chef. À l'issue de cette leçon de cuisine, chaque commis est évalué par le chef qui l'a coaché et le plat qu'ils ont réalisé est noté par les autres commis. Chaque jour, le meilleur des deux commis gagne un week-end gastronomique. Enfin, tous les jours, nos deux chefs livreront leur propre interprétation d'une recette populaire et connue de tous.(n)</desc>
+    <category lang="fr">LOISIRS</category>
+  </programme>
+  <programme start="20151126181000 +0100" stop="20151126185000 +0100" channel="0203">
+    <title lang="fr">Joker</title>
+    <desc lang="fr">\"Joker\" est un quiz interactif dans lequel les téléspectateurs peuvent jouer en simultané depuis leur tablette ou depuis leur smartphone grâce à une application gratuite. Le candidat ne peut quitter le jeu avant la dixième et dernière question. Pour l'aider à répondre durant le chrono, il dispose de sept jokers, qui éliminent une proposition de réponse incorrecte. À chaque bonne réponse, le candidat monte d'un niveau dans l'échelle des gains jusqu'à atteindre le septième niveau : celui des 50 000 euros ! Une fois au sommet, il faut s'y maintenir, car c'est la somme atteinte à l'issue de la dixième et dernière question que le candidat partagera avec un téléspectateur ! À chaque mauvaise réponse, le candidat perd trois jokers. Et après les avoir tous épuisés, c'est dans l'échelle des gains qu'il chute de trois niveaux ! Mais rien n'est jamais perdu puisqu'il peut toujours remonter dans l'échelle des gains grâce aux questions restantes.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126185000 +0100" stop="20151126192500 +0100" channel="0203">
+    <title lang="fr">N'oubliez pas les paroles</title>
+    <desc lang="fr">\"N'oubliez pas les paroles\" est une émission de divertissement présentée par Nagui. Le principe est simple : il s'agit d'un karaoké géant où des amateurs de la chanson française viennent tester leur mémoire en complétant les paroles d'une chanson. Leur but : gagner de l'argent ! Les gains oscillent entre 250 et 100 000 euros. Ils sont accompagnés d'un orchestre en live qui donne le rythme de la chanson. Les candidats sélectionnent un thème sur lequel ils sont interrogés. Attention, toutefois ! Le thème peut être trompeur. Pour les aider, les candidats ont à leur disposition quatre jokers : les 2 mots, les trois propositions, l'échange et le chanteur de secours.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126192500 +0100" stop="20151126195500 +0100" channel="0203">
+    <title lang="fr">N'oubliez pas les paroles</title>
+    <desc lang="fr">\"N'oubliez pas les paroles\" est une émission de divertissement présentée par Nagui. Le principe est simple : il s'agit d'un karaoké géant où des amateurs de la chanson française viennent tester leur mémoire en complétant les paroles d'une chanson. Leur but : gagner de l'argent ! Les gains oscillent entre 250 et 100 000 euros. Ils sont accompagnés d'un orchestre en live qui donne le rythme de la chanson. Les candidats sélectionnent un thème sur lequel ils sont interrogés. Attention, toutefois ! Le thème peut être trompeur. Pour les aider, les candidats ont à leur disposition quatre jokers : les 2 mots, les trois propositions, l'échange et le chanteur de secours.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126195500 +0100" stop="20151126200000 +0100" channel="0203">
+    <title lang="fr">Météo 2</title>
+    <desc lang="fr">Les prévisions météorologiques de France 2.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126200000 +0100" stop="20151126204000 +0100" channel="0203">
+    <title lang="fr">Journal de 20h</title>
+    <sub-title lang="fr">Le journal de 20h</sub-title>
+    <desc lang="fr">Journal d'information.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126204000 +0100" stop="20151126204500 +0100" channel="0203">
+    <title lang="fr">Parents mode d'emploi</title>
+    <desc lang="fr">Isa et Gaby ont trois enfants âgés de 8 à 16 ans. Chaque jour, Isa et Gaby oscillent entre contradictions et mauvaise foi, grands principes et petites déconvenues, devoirs conjugaux et parentaux, petits heurts et grandes effusions, démissions passagères et ruses inavouables pour limiter les conflits. Le téléspectateur évolue dans le quotidien de ce couple de quadras bien d'aujourd'hui, en mal de mode d'emploi pour être de dignes parents ! Ils essaient de maîtriser la situation et seraient même à deux doigts de nous donner des conseils mais, comme tous bons parents qui se respectent, ils se plantent lamentablement... pour notre plus grand plaisir !.(n)</desc>
+    <credits>
+      <actor>Alix Poisson</actor>
+      <actor>Arnaud Ducret</actor>
+    </credits>
+    <category lang="fr">TV DRAME</category>
+  </programme>
+  <programme start="20151126204500 +0100" stop="20151126205000 +0100" channel="0203">
+    <title lang="fr">Alcaline</title>
+    <sub-title lang="fr">Grand Corps Malade</sub-title>
+    <desc lang="fr">\"Alcaline\" est le rendez-vous de toutes les musiques actuelles décliné en trois types de programmes qui vont à la rencontre de musiciens en tous genres, français et internationaux, confirmés ou en devenir. Dans \"Alcaline, l'instant\", un artiste donne les clés pour découvrir son nouvel album.(n)</desc>
+    <category lang="fr">LOISIRS</category>
+  </programme>
+  <programme start="20151126205000 +0100" stop="20151126205500 +0100" channel="0203">
+    <title lang="fr">Météo 2</title>
+    <desc lang="fr">Les prévisions météorologiques de France 2.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126205500 +0100" stop="20151126232000 +0100" channel="0203">
+    <title lang="fr">Des paroles et des actes</title>
+    <sub-title lang="fr">Spéciale \"Elections régionales\"</sub-title>
+    <desc lang="fr">A quelques semaines des élections régionales, David Pujadas reçoit les personnalités politiques engagés dans le scrutin. Toutes les sensibilités sont invitées à réagir sur le plateau au cours de débats censés leur permettre d'exposer leurs idées.(n)</desc>
+    <category lang="fr">SOCIAL/POLITIQUE</category>
+  </programme>
+  <programme start="20151126232000 +0100" stop="20151127001000 +0100" channel="0203">
+    <title lang="fr">Alcaline</title>
+    <sub-title lang="fr">Abd Al Malik</sub-title>
+    <desc lang="fr">Magazine musical capté au Théâtre du Trianon.(n)</desc>
+    <category lang="fr">ARTS/CULTURE</category>
+  </programme>
+  <programme start="20151126161500 +0100" stop="20151126181500 +0100" channel="0206">
+    <title lang="fr">Un homme très recherché</title>
+    <desc lang="fr">Plus de dix ans après les attentats du 11 Septembre 2001, la ville de Hambourg a du mal à se remettre d'avoir abrité une importante cellule terroriste à l'origine des attaques contre le World Trade Center. Lorsqu'un immigré d'origine russo-tchétchène, ayant subi de terribles sévices, débarque dans la communauté musulmane de Hambourg pour récupérer la fortune mal acquise de son père, les services secrets allemands et américains sont en alerte. Une course contre la montre s'engage alors pour identifier cet homme très recherché : s'agit-il d'une victime ou d'un extrémiste aux intentions destructrices ?.(n)</desc>
+    <credits>
+      <director>Anton Corbijn</director>
+      <actor>Philip Seymour Hoffman</actor>
+      <actor>Grigoriy Dobrygin</actor>
+      <actor>Homayoun Ershadi</actor>
+      <actor>Mehdi Dehbi</actor>
+      <actor>Nina Hoss</actor>
+      <actor>Daniel Bruhl</actor>
+      <actor>Vicky Krieps</actor>
+      <actor>Kostja Ullmann</actor>
+      <actor>Rachel McAdams</actor>
+      <actor>Robin Wright</actor>
+      <actor>Willem Dafoe</actor>
+      <actor>Vedat Erincin</actor>
+    </credits>
+    <date>2014</date>
+    <category lang="fr">THRILLER</category>
+    <rating>
+      <value>4</value>
+    </rating>
+  </programme>
+  <programme start="20151126181500 +0100" stop="20151126183500 +0100" channel="0206">
+    <title lang="fr">The Big Bang Theory</title>
+    <sub-title lang="fr">Un engagement pas très engageant</sub-title>
+    <desc lang="fr">Léonard s'énerve quand Sheldon certifie qu'Amy et lui font un meilleur couple que Léonard et Penny. Howard est invité à lancer la balle de début de jeu à un match de baseball.(n)</desc>
+    <credits>
+      <director>Mark Cendrowski</director>
+      <actor>Johnny Galecki</actor>
+      <actor>Jim Parsons</actor>
+      <actor>Kaley Cuoco-Sweeting</actor>
+      <actor>Simon Helberg</actor>
+      <actor>Kunal Nayyar</actor>
+      <actor>Mayim Bialik</actor>
+      <actor>Melissa Rauch</actor>
+      <actor>Michael Massimino</actor>
+      <actor>Malcolm Foster Smith</actor>
+      <actor>Michael Araujo</actor>
+    </credits>
+    <date>2014</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.2.</episode-num>
+  </programme>
+  <programme start="20151126183500 +0100" stop="20151126185000 +0100" channel="0206">
+    <title lang="fr">L'album de la semaine</title>
+    <sub-title lang="fr">Album de la semaine</sub-title>
+    <desc lang="fr">Magazine. Chaque jour, un titre en live et en exclusivité, une interview de l'artiste, des infos sur les sorties d'albums, de DVD, de jeux vidéo, les concerts et les nouvelles.(n)</desc>
+    <category lang="fr">ARTS/CULTURE</category>
+  </programme>
+  <programme start="20151126185000 +0100" stop="20151126201000 +0100" channel="0206">
+    <title lang="fr">Le grand journal</title>
+    <desc lang="fr">Maïtena Biraben prend les commandes du \"Grand Journal\", entourée d'une nouvelle équipe.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126201000 +0100" stop="20151126205000 +0100" channel="0206">
+    <title lang="fr">Le Petit Journal</title>
+    <desc lang="fr">Divertissement. Entre information et divertissement, \"Le Petit Journal\" pose un regard amusé sur les événements qui font l'actualité et n'hésite pas à les parodier.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126205000 +0100" stop="20151126205500 +0100" channel="0206">
+    <title lang="fr">Zapping</title>
+    <desc lang="fr">Divertissement. Une sélection des moments les plus émouvants, surprenants, cocasses ou révoltants de la télévision.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126205500 +0100" stop="20151126215000 +0100" channel="0206">
+    <title lang="fr">Ray Donovan</title>
+    <sub-title lang="fr">Fifty-fifty</sub-title>
+    <desc lang="fr">Série. Un spécialiste des litiges les plus compliqués, controversés et confidentiels des familles les plus aisées de Los Angeles, a bien du mal à régler ses problèmes personnels.(n)</desc>
+    <credits>
+      <director>Colin Bucksey</director>
+      <actor>Liev Schreiber</actor>
+      <actor>Paula Malcomson</actor>
+      <actor>Jon Voight</actor>
+      <actor>Dash Mihok</actor>
+      <actor>Katherine Moennig</actor>
+      <actor>Pooch Hall</actor>
+      <actor>Kerris Dorsey</actor>
+      <actor>Devon Bagby</actor>
+      <actor>Eddie Marsan</actor>
+    </credits>
+    <date>2015</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.4.</episode-num>
+  </programme>
+  <programme start="20151126215000 +0100" stop="20151126224500 +0100" channel="0206">
+    <title lang="fr">Ray Donovan</title>
+    <sub-title lang="fr">Vote décisif</sub-title>
+    <desc lang="fr">Ray Donovan est l'homme à tout faire de l'élite californienne. Il efface toute preuve de ses dérapages avec une incontestable discrétion. Chef du clan Donovan, il a réussi à préserver sa famille des éclaboussures de cette sale besogne jusqu'au jour où son père, Mickey, a réapparu, talonné par le FBI. Aux dépens de sa famille qui se délite, Ray reste concentré face à un nouveau client, Finney. Entre-temps s'ouvre une enquête sur le défunt père Dany.(n)</desc>
+    <credits>
+      <director>John Dahl</director>
+      <actor>Liev Schreiber</actor>
+      <actor>Paula Malcomson</actor>
+      <actor>Jon Voight</actor>
+      <actor>Eddie Marsan</actor>
+      <actor>Dash Mihok</actor>
+      <actor>Steven Bauer</actor>
+      <actor>Katherine Moennig</actor>
+      <actor>Pooch Hall</actor>
+      <actor>Kerris Dorsey</actor>
+      <actor>Ian McShane</actor>
+    </credits>
+    <date>2015</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.5.</episode-num>
+  </programme>
+  <programme start="20151126224500 +0100" stop="20151126231000 +0100" channel="0206">
+    <title lang="fr">Le tour du bagel</title>
+    <desc lang="fr">Studio Bagel à l'université, Studio Bagel à la ferme, Studio Bagel au commissariat, Studio Bagel dans un aéroport... Chaque épisode nous embarque dans un univers unique et très référencé, où les talents du Studio Bagel passent d'un personnage à un autre en quelques minutes. À chaque épisode, son ambiance, ses personnages, son ton.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126231000 +0100" stop="20151127010500 +0100" channel="0206">
+    <title lang="fr">Un illustre inconnu</title>
+    <desc lang="fr">Sébastien Nicolas, 42 ans, est agent immobilier sans histoires. Il mène une vie solitaire, retranché dans son pavillon de banlieue. Au lieu de tenter de construire une vie meilleure, il préfère copier celle des autres. Au gré de ses rencontres, il va se métamorphoser en un personnage choisi. Ainsi déguisé, il va vivre la vie d'un illustre inconnu pour donner un sens à la sienne. Mais l'une de ses rencontres, quelqu'un au lourd passé, va l'amener à franchir une ligne jaune. Sa femme, désemparée, ne comprend pas cette obsession de se réinventer et son fils, qui se sent délaissé, non plus.(n)</desc>
+    <credits>
+      <director>Matthieu Delaporte</director>
+      <actor>Mathieu Kassovitz</actor>
+      <actor>Marie-Josee Croze</actor>
+      <actor>Eric Caravaca</actor>
+      <actor>Hugo Le Martret</actor>
+      <actor>Siobhan Finneran</actor>
+      <actor>Philippe Duclos</actor>
+      <actor>Olivier Rabourdin</actor>
+      <actor>Genevieve Mnich</actor>
+      <actor>Dimitri Storoge</actor>
+      <actor>Sophie Cattani</actor>
+      <actor>Mounia Raoui</actor>
+      <actor>Matthieu Roze</actor>
+      <actor>Hichem Yacoubi</actor>
+    </credits>
+    <date>2014</date>
+    <category lang="fr">THRILLER</category>
+    <rating>
+      <value>12</value>
+    </rating>
+  </programme>
+  <programme start="20151126154000 +0100" stop="20151126172000 +0100" channel="0208">
+    <title lang="fr">La star et l'enfant</title>
+    <desc lang="fr">Henry Ramiro anime un talk-show dans une radio locale. Connu pour ses coups de gueule envers les auditeurs, Henry est également désagréable avec ses proches. Un jour, il insulte un fan dénommé Michael. Mais en apprenant que l'auditeur souffre d'une maladie cardiaque, Henry se rend chez lui pour s'excuser. Michael n'accepte ses excuses que si l'animateur se comporte d'une manière correcte envers ses auditeurs durant toute une journée.(n)</desc>
+    <credits>
+      <director>Eric Laneuville</director>
+      <actor>George Lopez</actor>
+      <actor>James Kirk</actor>
+      <actor>Lisa Vidal</actor>
+      <actor>Bianca Collins</actor>
+      <actor>Dan McLean</actor>
+      <actor>Frank Adamson</actor>
+    </credits>
+    <date>2006</date>
+    <category lang="fr">COMÉDIE</category>
+  </programme>
+  <programme start="20151126172000 +0100" stop="20151126183500 +0100" channel="0208">
+    <title lang="fr">Les reines du shopping</title>
+    <sub-title lang="fr">Féminine avec une chemise blanche</sub-title>
+    <desc lang="fr">Fatma, 28 ans, n'aura qu'une idée en tête : remporter la compétition coûte que coûte ! Cette conductrice de bus qui exerce aussi le métier d'esthéticienne usera de toutes les stratégies pour obtenir le titre. Marie-José, 75 ans, est une ancienne fleuriste à la garde-robe riche en couleurs. Surnommée \"mamie couleur\" par ses camarades de jeu, elle se lancera avec dynamisme à l'assaut des boutiques parisiennes, bien décidée à prouver qu'il faut compter sur la doyenne cette semaine ! Eugénie, 23 ans, affiche un look variant du streetwear à l'ultra féminin. Cette jeune hôtesse d'accueil à la bonne humeur communicative convertira facilement le showroom à ses expressions franco-anglaises. Nathalie, 44 ans, aime s'habiller féminine, avec talons et décolletés, dès qu'elle enlève sa tenue d'électricienne. Sarah, 29 ans, est une jolie working girl belge à la garde-robe bien pourvue. Très exigeante lors de son shopping, elle prendra son temps pour trouver une tenue à son goût pour le thème.(n)</desc>
+    <category lang="fr">ARTS/CULTURE</category>
+  </programme>
+  <programme start="20151126183500 +0100" stop="20151126194000 +0100" channel="0208">
+    <title lang="fr">Objectif Top Chef</title>
+    <desc lang="fr">Philippe Etchebest part à la rencontre de 60 apprentis cuisiniers ! Avec son savoir-faire unique, le chef va sillonner les routes de France, goûter la cuisine des candidats, leur imposer des défis culinaires avec les produits phares de leur région et sélectionner le meilleur d'entre eux. Ce dernier rejoindra les candidats professionnels de la nouvelle promotion de \"Top chef\". Chaque jour, Philippe Etchebest va donc aller rencontrer, chez eux, de jeunes cuisiniers amateurs. Chacun devra réaliser un plat libre pour impressionner le chef. Ce dernier analysera leur cuisine et leur prodiguera de précieux conseils. Il sélectionnera les plus talentueux d'entre eux au fur et à mesure des semaines. Finalement, un seul cuisinier amateur aura le privilège d'intégrer la nouvelle saison de \"Top Chef\", traditionnellement ouverte uniquement aux professionnels.(n)</desc>
+    <category lang="fr">LOISIRS</category>
+  </programme>
+  <programme start="20151126194000 +0100" stop="20151126194500 +0100" channel="0208">
+    <title lang="fr">Météo M6</title>
+    <sub-title lang="fr">Météo</sub-title>
+    <desc lang="fr">M6 vous offre toutes les prévisions météorologiques.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126194500 +0100" stop="20151126201000 +0100" channel="0208">
+    <title lang="fr">Le 1945</title>
+    <desc lang="fr">Journal d'information : 18 minutes pour traiter complètement l'actualité.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126201000 +0100" stop="20151126205500 +0100" channel="0208">
+    <title lang="fr">Scènes de ménages</title>
+    <desc lang="fr">Sitcom. Votre couple vous désole ? Vous vous lamentez de vivre seul ? \"Scènes de Ménages\" va vous aider à relativiser !.(n)</desc>
+    <credits>
+      <actor>Audrey Lamy</actor>
+      <actor>Loup-Denis Elion</actor>
+      <actor>Valerie Karsenti</actor>
+      <actor>Frederic Bouraly</actor>
+      <actor>Marion Game</actor>
+      <actor>Gerard Hernandez</actor>
+      <actor>Anne-Elisabeth Blateau</actor>
+      <actor>David Mora</actor>
+    </credits>
+    <category lang="fr">TV DRAME</category>
+  </programme>
+  <programme start="20151126205500 +0100" stop="20151126224000 +0100" channel="0208">
+    <title lang="fr">Patron incognito</title>
+    <sub-title lang="fr">Alain Brière, Président de Balladins</sub-title>
+    <desc lang="fr">Alain Brière, 59 ans, est le président des hôtels Balladins. Il a suivi une formation en école Hôtelière et entre en 1979 dans un groupe de restauration comme assistant de direction. En 1983, il prend la direction d'un hôtel de 100 chambres en région parisienne. Au cours de sa carrière, soit plus d'une trentaine d'années d'expériences dans l'hôtellerie et la restauration, il va oeuvrer pour le développement de plusieurs chaines d'hôtellerie. Homme de terrain et de marketing, il a traversé tous les métiers de l'hôtellerie. En 2013, il intègre DHM, (Dynamique Hôtels Management) en tant que directeur Général avant de devenir le président en septembre 2014, avec pour mission de reprendre la gestion des hôtels filiales et de rassurer le réseau des franchisés. Cette immersion sera pour Alain Brière, qui a déjà occupé ces postes il y a de nombreuses années, un véritable retour aux sources, au coeur de sa propre entreprise.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126224000 +0100" stop="20151127003500 +0100" channel="0208">
+    <title lang="fr">Patron incognito</title>
+    <sub-title lang="fr">Karine Cohen / Co-dirigeante de Coursiers.com (transport et livraison de proximité)</sub-title>
+    <desc lang="fr">Poigne de fer dans un gant de velours, Karine Ohana-Cohen, 51 ans, mère de six enfants, est la première patronne incognito ! Docteur en Sciences Humaines, elle exerce depuis 2004 le métier de DRH et PDG aux côtés de son mari, co-PDG et fondateur de l'entreprise. La difficulté du métier de coursier, auquel Karine Ohana-Cohen va être confrontée, est de trouver le juste milieu entre les exigences des clients et la réalité du terrain. Son immersion va aussi servir à évaluer les process actuels dans le cadre du développement prochain d'un service de coursiers pour particuliers. Les salariés de Coursiers.com sont exclusivement masculins. Plusieurs femmes ont déjà tenté l'expérience mais aucune d'entre elles n'a su résister à la pénibilité du métier. Au cours de son immersion, Karine Ohana-Cohen, notre première patronne incognito sera donc formée exclusivement par des hommes.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126162000 +0100" stop="20151126172000 +0100" channel="0214">
+    <title lang="fr">\"Selandia\", le navire qui a changé le monde</title>
+    <desc lang="fr">En février 1912, la société danoise East Asiatic Company fait sensation en lançant le premier transatlantique à moteur diesel, destiné à assurer la liaison entre le Danemark, l'Italie et la Thaïlande. Dès son voyage inaugural, le Selandia prouve la supériorité de son mode de propulsion : ses moteurs sont presque deux fois plus puissants que ceux d'un navire à vapeur, occupent moins de place et nécessitent peu de main d'oeuvre. Surtout, ils permettent de parcourir plus de 22 000 miles nautiques avec un seul plein des réservoirs. C'est le début d'une révolution qui va bouleverser les transports maritimes.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126172000 +0100" stop="20151126174500 +0100" channel="0214">
+    <title lang="fr">X:enius</title>
+    <sub-title lang="fr">Comment concilier ski et tourisme durable ?</sub-title>
+    <desc lang="fr">Les sports d'hiver sont de plus en plus sous le feu des critiques : destruction de sites naturels, insuffisance chronique de neige, pollution atmosphérique. Quid d'une pratique des sports de neige respectueuse de l'environnement ? Les présentateurs de \"X:enius\" se sont rendus à Safiental en Suisse. Dans cette commune a été installé le seul téléski solaire au monde, une initiative destinée à limiter les émissions de CO2. A Safiental, les présentateurs testent les divers types de sports de glisse. Tandis que Carolin enchaîne les descentes sur les pistes traditionnelles, Gunnar entreprend une randonnée à ski vers le sommet. Avec l'aide de Katharina Conradin qui travaille pour Mountain Wilderness Schweiz, une organisation de protection des Alpes, \"X:enius\" examine si la randonnée à ski est véritablement plus respectueuse de la nature que le ski de piste.(n)</desc>
+    <category lang="fr">EDUCATIF</category>
+  </programme>
+  <programme start="20151126174500 +0100" stop="20151126181500 +0100" channel="0214">
+    <title lang="fr">Mystères d'archives</title>
+    <sub-title lang="fr">1963. Funérailles de John F. Kennedy</sub-title>
+    <desc lang="fr">Dès l'annonce de l'assassinat de John F. Kennedy et jusqu'à son enterrement à Washington, quatre jours plus tard, les chaînes de télévision ABC, CBS et NBC s'allient pour la première fois pour diffuser sans interruption et en direct des programmes consacrés au président défunt et s'interdisent même les publicités. N'est-ce pas pendant ces journées que la télévision américaine a gagné la toute première place dans les médias ?.(n)</desc>
+    <category lang="fr">EDUCATIF</category>
+    <episode-num system="xmltv_ns">.4.</episode-num>
+  </programme>
+  <programme start="20151126181500 +0100" stop="20151126190000 +0100" channel="0214">
+    <title lang="fr">Pacifique Sud</title>
+    <sub-title lang="fr">Splendeurs insolites</sub-title>
+    <desc lang="fr">Le Pacifique sud est vaste et se compose de milliers d'îles, chacune recélant ses propres trésors. Splendeurs insolites. Les îles du Pacifique sud recèlent des créatures cachées depuis longtemps mais aujourd'hui menacées de disparition. La Nouvelle-Guinée abrite notamment les kangourous arboricoles, dont le dingiso qui n'a été découvert qu'en 1995. En Nouvelle-Calédonie se trouve un oiseau hérissé de plumes incapable de voler mais sachant faire des vocalises. Aux îles Salomon, on trouve des scinques, reptiles à l'aspect hybride, entre le serpent et le gros lézard. La Nouvelle-Zélande abrite un nombre impressionnant d'animaux étranges comme les gorfous qui viennent nidifier dans la forêt. Les îles, grandes et petites, ont subi l'influence souvent désastreuse de l'homme, qui tente désormais de préserver ces richesses naturelles.(n)</desc>
+    <category lang="fr">EDUCATIF</category>
+    <episode-num system="xmltv_ns">.4.</episode-num>
+  </programme>
+  <programme start="20151126190000 +0100" stop="20151126194500 +0100" channel="0214">
+    <title lang="fr">Les îles du futur</title>
+    <sub-title lang="fr">Samsø - L'électricité alternative</sub-title>
+    <desc lang="fr">Samsø, île danoise de la mer Baltique, est considérée comme le modèle à suivre en matière de transition énergétique. Tout a commencé en 1997, quand le gouvernement a lancé un appel à projets pour une région pilote. L'objectif : prouver qu'il était possible d'atteindre l'autosuffisance en s'appuyant exclusivement sur des énergies renouvelables. Le modèle de Samsø, particulièrement vertueux, bénéficie avant tout de l'appui quasi-unanime de sa population, qui a pu investir dans l'éolien, sur terre ou offshore, et former des coopératives pour participer au projet énergétique local. Outre ses éoliennes - propriété des 4 000 insulaires -, l'île détient le record de production d'énergie photovoltaïque par habitant ; la paille fournie par les agriculteurs alimente également une centrale de chauffage à prix modique.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+    <episode-num system="xmltv_ns">.3.</episode-num>
+  </programme>
+  <programme start="20151126194500 +0100" stop="20151126200500 +0100" channel="0214">
+    <title lang="fr">ARTE Journal</title>
+    <desc lang="fr">Journal. Le JT d'ARTE affiche plus que jamais sa différence en accordant une large place à l'international, à la culture et à l'analyse. Indépendant, rigoureux, convivial, un journal ouvert sur le monde, qui apporte un regard original au-delà du franco-français.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126200500 +0100" stop="20151126204800 +0100" channel="0214">
+    <title lang="fr">28 minutes</title>
+    <desc lang="fr">Un magazine consacré à un sujet de société, souvent d'actualité, approfondi, mis en perspective et proposant une manière originale de relier l'actualité à la culture au sens large. \"28 minutes\", c'est la rencontre entre l'actualité et le regard d'une personnalité venue du monde de la culture, augmentée de points de vue historique, scientifique, statistique, économique, humoristique, polémique...(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126204800 +0100" stop="20151126205500 +0100" channel="0214">
+    <title lang="fr">Silex and the City</title>
+    <sub-title lang="fr">Made in feu</sub-title>
+    <desc lang="fr">Fermeture du volcan EDF (Énergie du Feu) : les salariés vont devoir pointer à Peau Emploi. A moins que le ministre du Redressement progressif ne parvienne à trouver un repreneur chez des chasseurs-cueilleurs qataris. Avec la voix d'Arnaud Montebourg.(n)</desc>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.0.</episode-num>
+  </programme>
+  <programme start="20151126205500 +0100" stop="20151126214000 +0100" channel="0214">
+    <title lang="fr">Occupied</title>
+    <sub-title lang="fr">Juin</sub-title>
+    <desc lang="fr">Dans son enquête sur la mort du jeune Russe, percuté par une voiture à l'issue d'une soirée dans le restaurant de Bente, la police découvre que le véhicule est celui d'un réfugié tchétchène, installé depuis de longues années en Norvège, Elbek Moussaiev. L'ambassade russe invoque un acte délibéré et exige que Moussaiev soit extradé. Hans Martin Djupvik, qui a été nommé par Wenche Arnesen au sein d'une unité spéciale de \"prévention des crimes à l'encontre des Russes\", espère dénouer la crise en reconstituant les faits. Quant au Premier ministre Jesper Berg, qui vient d'être papa, il évoque imprudemment le prochain départ des occupants en étalant son bonheur familial à la une de la presse. Or, devant ce que les Russes qualifient de provocation, le retrait est reporté sine die.(n)</desc>
+    <credits>
+      <director>Erik Strand</director>
+      <actor>Kristin Braut-Solheim</actor>
+      <actor>Ingeborga Dapkunaite</actor>
+      <actor>Selome Emnetu</actor>
+      <actor>Ragnhild Gudbrandsen</actor>
+      <actor>Bjorn Eklund</actor>
+      <actor>Veslemoy Morkrid</actor>
+      <actor>Claes Friis-Thofte</actor>
+      <actor>Vegar Hoel</actor>
+      <actor>Per Gorvell</actor>
+      <actor>Janne Heltberg</actor>
+    </credits>
+    <date>2015</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.2.</episode-num>
+    <rating>
+      <value>4</value>
+    </rating>
+  </programme>
+  <programme start="20151126214000 +0100" stop="20151126222500 +0100" channel="0214">
+    <title lang="fr">Occupied</title>
+    <sub-title lang="fr">Juillet</sub-title>
+    <desc lang="fr">Grâce à sa compagne, qui débute dans la magistrature, Hans Martin a découvert que la justice a subi des pressions politiques pour extrader Moussaiev, bien qu'il se soit agi d'un accident. Une fois la crise passée, les Russes affluent à nouveau dans le restaurant de Bente, laquelle surveille de près Thomas Eriksen, son compagnon, pour l'empêcher de poser des questions à ses clients. Des sites et des tracts appellent de plus en plus ouvertement à la lutte armée contre l'occupant. Hans Martin et sa collègue doivent emmener au poste un adolescent de quinze ans qui tient un blog antirusse très populaire. Mais alors qu'ils s'apprêtent à le ramener chez lui, leur voiture explose.(n)</desc>
+    <credits>
+      <director>Erik Strand</director>
+      <actor>Kristin Braut-Solheim</actor>
+      <actor>Ingeborga Dapkunaite</actor>
+      <actor>Selome Emnetu</actor>
+      <actor>Ragnhild Gudbrandsen</actor>
+      <actor>Veslemoy Morkrid</actor>
+      <actor>Vegar Hoel</actor>
+      <actor>Per Gorvell</actor>
+      <actor>Janne Heltberg</actor>
+      <actor>Johannes Gjessing</actor>
+    </credits>
+    <date>2015</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.3.</episode-num>
+    <rating>
+      <value>4</value>
+    </rating>
+  </programme>
+  <programme start="20151126222500 +0100" stop="20151127001000 +0100" channel="0214">
+    <title lang="fr">Left foot, right foot</title>
+    <desc lang="fr">Marie, 19 ans, vit mal son quotidien désargenté. Sans s'en rendre compte, elle va glisser dans la prostitution, tout en le cachant à son amoureux, Vincent, un jeune skateur de 21 ans, fauché et endetté, qui n'arrive pas à devenir adulte. Témoin de leurs mensonges, Mika, le frère autiste de Vincent, va être, lui aussi, pris au piège d'une société qui ne fait aucun cadeau à sa jeunesse.(n)</desc>
+    <credits>
+      <director>Germinal Roaux</director>
+      <actor>Agathe Schlenker</actor>
+      <actor>Nahyel Biscayart</actor>
+      <actor>Dimitri Stapfer</actor>
+      <actor>Mathilde Bisson</actor>
+      <actor>Stanislas Merhar</actor>
+    </credits>
+    <date>2013</date>
+    <category lang="fr">DRAME</category>
+    <rating>
+      <value>4</value>
+    </rating>
+  </programme>
+  <programme start="20151126153000 +0100" stop="20151126173000 +0100" channel="0219">
+    <title lang="fr">La villa des coeurs brisés</title>
+    <desc lang="fr">Ils sont dix, dix personnalités (cinq filles, cinq garçons), leurs points communs : ils sont connus du grand public et toujours célibataires. Leur notoriété soudaine a changé leur rapport amoureux mais ils sont aujourd'hui décidés à trouver le grand amour. Ces dix célibataires vont évoluer dans un cadre paradisiaque, une villa de rêve située au Mexique où toutes les conditions sont réunies pour qu'ils réapprennent à aimer. Tout au long de leur séjour, Lucie, une love coach, les accompagnera dans cette quête du grand amour en leur présentant des prétendants venus spécialement pour les rencontrer. Destinations de rêve, coups de foudre, amours naissants, remises en question et déceptions amoureuses sous le soleil du Mexique.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126173000 +0100" stop="20151126180500 +0100" channel="0219">
+    <title lang="fr">La villa des coeurs brisés</title>
+    <desc lang="fr">Ils sont dix, dix personnalités (cinq filles, cinq garçons), leurs points communs : ils sont connus du grand public et toujours célibataires. Leur notoriété soudaine a changé leur rapport amoureux mais ils sont aujourd'hui décidés à trouver le grand amour. Ces dix célibataires vont évoluer dans un cadre paradisiaque, une villa de rêve située au Mexique où toutes les conditions sont réunies pour qu'ils réapprennent à aimer. Tout au long de leur séjour, Lucie, une love coach, les accompagnera dans cette quête du grand amour en leur présentant des prétendants venus spécialement pour les rencontrer. Destinations de rêve, coups de foudre, amours naissants, remises en question et déceptions amoureuses sous le soleil du Mexique.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126180500 +0100" stop="20151126204500 +0100" channel="0219">
+    <title lang="fr">Grey's Anatomy</title>
+    <desc lang="fr">Série. Meredith Grey, interne à l'hôpital de Seattle, étudie la médecine chirurgicale. Elle apprend un métier difficile, où la concurrence est rude.(n)</desc>
+    <credits>
+      <actor>Ellen Pompeo</actor>
+      <actor>Patrick Dempsey</actor>
+      <actor>Katherine Heigl</actor>
+      <actor>Justin Chambers</actor>
+      <actor>Sandra Oh</actor>
+    </credits>
+    <category lang="fr">TV DRAME</category>
+  </programme>
+  <programme start="20151126204500 +0100" stop="20151126205500 +0100" channel="0219">
+    <title lang="fr">The Perfect Vacation</title>
+    <desc lang="fr">\"The Perfect Vacation\" est une émission de voyage qui joue avec les réseaux sociaux : une célébrité part en vacances aux quatre coins du monde. Dès qu'elle arrive dans un pays, elle en informe ses fans sur Facebook qui lui proposent alors des endroits à visiter, des activités à faire ou encore des gens à rencontrer...(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126205500 +0100" stop="20151126221000 +0100" channel="0219">
+    <title lang="fr">NT1 météo</title>
+    <desc lang="fr">Les prévisions météorologiques.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126221000 +0100" stop="20151126232500 +0100" channel="0219">
+    <title lang="fr">Vis ma vie</title>
+    <desc lang="fr">Magazine. Trois personnes partagent pendant 48 heures l'existence d'individus dont le mode de vie est aux antipodes des leurs.(n)</desc>
+    <category lang="fr">LOISIRS</category>
+  </programme>
+  <programme start="20151126232500 +0100" stop="20151127014000 +0100" channel="0219">
+    <title lang="fr">Vis ma vie</title>
+    <desc lang="fr">Magazine. Trois personnes partagent pendant 48 heures l'existence d'individus dont le mode de vie est aux antipodes des leurs.(n)</desc>
+    <category lang="fr">LOISIRS</category>
+  </programme>
+  <programme start="20151126151000 +0100" stop="20151126171000 +0100" channel="0220">
+    <title lang="fr">Tellement vrai</title>
+    <desc lang="fr">Magazine de société. A chaque numéro, découvrez quatre histoires, quatre destins que l'on suit en parallèle. Enquêtes, témoignages, révélations...(n)</desc>
+    <category lang="fr">LOISIRS</category>
+  </programme>
+  <programme start="20151126171000 +0100" stop="20151126181000 +0100" channel="0220">
+    <title lang="fr">Le Mag</title>
+    <desc lang="fr">Magazine. Matthieu Delormeau, Ayem Nour et toute la bande du Mag recevront chaque jour un invité et feront le tour de l'actu people, musique et télé.(n)</desc>
+    <category lang="fr">LOISIRS</category>
+  </programme>
+  <programme start="20151126181000 +0100" stop="20151126190000 +0100" channel="0220">
+    <title lang="fr">Smallville</title>
+    <sub-title lang="fr">La mémoire dans la peau</sub-title>
+    <desc lang="fr">Série. Lex rejoint le programme expérimental du docteur Garner. Il pense que des informations vitales sur le passé de son père ont été perdues lorsque sa mémoire a été effacée.(n)</desc>
+    <credits>
+      <director>Miles Millar</director>
+      <actor>Tom Welling</actor>
+      <actor>Kristin Kreuk</actor>
+      <actor>Annette O'Toole</actor>
+      <actor>Michael Rosenbaum</actor>
+      <actor>John Schneider</actor>
+      <actor>Allison Mack</actor>
+      <actor>Martin Cummins</actor>
+      <actor>Wayne Dalglish</actor>
+      <actor>Alisen Down</actor>
+      <actor>Andrew Airlie</actor>
+    </credits>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.18.</episode-num>
+  </programme>
+  <programme start="20151126190000 +0100" stop="20151126195000 +0100" channel="0220">
+    <title lang="fr">Smallville</title>
+    <sub-title lang="fr">Légende</sub-title>
+    <desc lang="fr">Série. Un jeune Indien Kiwatche trouve par hasard un couteau mythique aux propriétés extraordinaires.(n)</desc>
+    <credits>
+      <director>John Schneider</director>
+      <actor>Tom Welling</actor>
+      <actor>Kristin Kreuk</actor>
+      <actor>Annette O'Toole</actor>
+      <actor>Michael Rosenbaum</actor>
+      <actor>John Schneider</actor>
+      <actor>Allison Mack</actor>
+      <actor>Sam Jones III</actor>
+      <actor>John Glover</actor>
+      <actor>Gordon Tootoosis</actor>
+      <actor>Teryl Rothery</actor>
+    </credits>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.19.</episode-num>
+  </programme>
+  <programme start="20151126195000 +0100" stop="20151126205500 +0100" channel="0220">
+    <title lang="fr">Smallville</title>
+    <sub-title lang="fr">Le chantage</sub-title>
+    <desc lang="fr">Série. Clark est au pied du mur : il doit révéler la vérité à Lana. Le jeune homme doit tout lui dire sur ses pouvoirs qu'il cache aux yeux du monde depuis des mois.(n)</desc>
+    <credits>
+      <director>Terrence O'Hara</director>
+      <actor>Tom Welling</actor>
+      <actor>Kristin Kreuk</actor>
+      <actor>Annette O'Toole</actor>
+      <actor>John Schneider</actor>
+      <actor>Michael Rosenbaum</actor>
+      <actor>Sam Jones III</actor>
+      <actor>Allison Mack</actor>
+      <actor>John Glover</actor>
+      <actor>Neil Flynn</actor>
+      <actor>Gary Hudson</actor>
+    </credits>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.20.</episode-num>
+  </programme>
+  <programme start="20151126205500 +0100" stop="20151126225000 +0100" channel="0220">
+    <title lang="fr">The Eye</title>
+    <desc lang="fr">Célèbre violoniste, Sydney Wells est belle, intelligente, très indépendante... et aveugle, depuis ce tragique accident qui lui a coûté la vue quand elle était enfant. Sydney vient de subir une double transplantation de la cornée. Après vingt ans dans le noir, elle pourra bientôt enfin revoir. Le Dr Paul Faulkner est chargé de l'aider à surmonter les difficultés qui accompagnent le fait de retrouver la vue. Avec son soutien et celui de sa soeur Helen, Sydney s'adapte peu à peu. Mais sa joie est de courte durée. D'étranges images, inexplicables et effrayantes, lui apparaissent. Séquelles de l'opération ? Réaction du cerveau ? Ou s'agit-il d'autre chose de bien plus terrible? Alors que ses proches se mettent à douter de sa santé mentale, Sydney est de plus en plus convaincue que ses nouveaux yeux ont ouvert la porte d'un monde terrifiant qu'elle seule peut voir.(n)</desc>
+    <credits>
+      <director>David Moreau</director>
+      <director>Xavier Palud</director>
+      <actor>Jessica Alba</actor>
+      <actor>Alessandro Nivola</actor>
+      <actor>Parker Posey</actor>
+      <actor>Rade Serbedzija</actor>
+      <actor>Fernanda Romero</actor>
+      <actor>Rachel Ticotin</actor>
+      <actor>Obba Babatunde</actor>
+      <actor>Danny Mora</actor>
+      <actor>Tamlyn Tomita</actor>
+      <actor>Karen Austin</actor>
+    </credits>
+    <date>2008</date>
+    <category lang="fr">HORREUR</category>
+    <rating>
+      <value>16</value>
+    </rating>
+  </programme>
+  <programme start="20151126225000 +0100" stop="20151126234000 +0100" channel="0220">
+    <title lang="fr">American Horror Story</title>
+    <sub-title lang="fr">L'aveu</sub-title>
+    <desc lang="fr">Série. Ben apprend que Violet a manqué 16 jours de cours et lui révèle les problèmes judiciaires à venir si l'adolescente ne se décide pas à retourner en classe.(n)</desc>
+    <credits>
+      <director>Michael Lehmann</director>
+      <actor>Connie Britton</actor>
+      <actor>Dylan McDermott</actor>
+      <actor>Taissa Farmiga</actor>
+      <actor>Denis O'Hare</actor>
+      <actor>Jessica Lange</actor>
+      <actor>Evan Peters</actor>
+      <actor>Charles S Dutton</actor>
+      <actor>Michael Graziadei</actor>
+      <actor>Derek Richardson</actor>
+      <actor>Rebecca Wisocky</actor>
+    </credits>
+    <date>2011</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.9.</episode-num>
+  </programme>
+  <programme start="20151126234000 +0100" stop="20151127003000 +0100" channel="0220">
+    <title lang="fr">American Horror Story</title>
+    <sub-title lang="fr">La naissance</sub-title>
+    <desc lang="fr">Alors que leur relation est de plus en plus conflictuelle, Ben exige de Violet qu'elle l'accompagne à l'hôpital pour rendre visite à sa mère. Effrayée par le sombre passé et la personnalité psychotique de Tate, Violet décide finalement de rompre avec lui. A peine rentrée de l'hôpital, Vivien est subitement prise de contractions.(n)</desc>
+    <credits>
+      <director>Alfonso Gomez-Rejon</director>
+      <actor>Connie Britton</actor>
+      <actor>Dylan McDermott</actor>
+      <actor>Taissa Farmiga</actor>
+      <actor>Denis O'Hare</actor>
+      <actor>Jessica Lange</actor>
+      <actor>Kate Mara</actor>
+      <actor>Zachary Quinto</actor>
+      <actor>Frances Conroy</actor>
+      <actor>Lily Rabe</actor>
+      <actor>Matt Ross</actor>
+    </credits>
+    <date>2011</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.10.</episode-num>
+  </programme>
+  <programme start="20151126163000 +0100" stop="20151126174500 +0100" channel="0224">
+    <title lang="fr">Top France</title>
+    <desc lang="fr">Une sélection des quinze meilleurs titres français du moment.(n)</desc>
+    <category lang="fr">ARTS/CULTURE</category>
+  </programme>
+  <programme start="20151126174500 +0100" stop="20151126180000 +0100" channel="0224">
+    <title lang="fr">Pawn Stars</title>
+    <desc lang="fr">Découvrez les activités du Gold &amp; Silver Shop, une société de prêteurs sur gages pas comme les autres. Les trois personnages clés Rick Harrison, Corey ainsi que son père Richard gèrent leur commerce de Las Vegas avec une main de fer. Qu'il s'agisse d'un alligator, de tableaux de maître, de montres de collectionneur, ou d'une dent en or les Gold achètent des objets plus ou moins loufoques. Mais ils n'acceptent de débourser que s'ils pensent revendre les objets à profit...(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126180000 +0100" stop="20151126181500 +0100" channel="0224">
+    <title lang="fr">Pawn Stars</title>
+    <desc lang="fr">Découvrez les activités du Gold &amp; Silver Shop, une société de prêteurs sur gages pas comme les autres. Les trois personnages clés Rick Harrison, Corey ainsi que son père Richard gèrent leur commerce de Las Vegas avec une main de fer. Qu'il s'agisse d'un alligator, de tableaux de maître, de montres de collectionneur, ou d'une dent en or les Gold achètent des objets plus ou moins loufoques. Mais ils n'acceptent de débourser que s'ils pensent revendre les objets à profit...(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126181500 +0100" stop="20151126183000 +0100" channel="0224">
+    <title lang="fr">Pawn Stars</title>
+    <desc lang="fr">Découvrez les activités du Gold &amp; Silver Shop, une société de prêteurs sur gages pas comme les autres. Les trois personnages clés Rick Harrison, Corey ainsi que son père Richard gèrent leur commerce de Las Vegas avec une main de fer. Qu'il s'agisse d'un alligator, de tableaux de maître, de montres de collectionneur, ou d'une dent en or les Gold achètent des objets plus ou moins loufoques. Mais ils n'acceptent de débourser que s'ils pensent revendre les objets à profit...(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126183000 +0100" stop="20151126194500 +0100" channel="0224">
+    <title lang="fr">Pawn Stars</title>
+    <desc lang="fr">Découvrez les activités du Gold &amp; Silver Shop, une société de prêteurs sur gages pas comme les autres. Les trois personnages clés Rick Harrison, Corey ainsi que son père Richard gèrent leur commerce de Las Vegas avec une main de fer. Qu'il s'agisse d'un alligator, de tableaux de maître, de montres de collectionneur, ou d'une dent en or les Gold achètent des objets plus ou moins loufoques. Mais ils n'acceptent de débourser que s'ils pensent revendre les objets à profit...(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126194500 +0100" stop="20151126200000 +0100" channel="0224">
+    <title lang="fr">Pawn Stars</title>
+    <desc lang="fr">Découvrez les activités du Gold &amp; Silver Shop, une société de prêteurs sur gages pas comme les autres. Les trois personnages clés Rick Harrison, Corey ainsi que son père Richard gèrent leur commerce de Las Vegas avec une main de fer. Qu'il s'agisse d'un alligator, de tableaux de maître, de montres de collectionneur, ou d'une dent en or les Gold achètent des objets plus ou moins loufoques. Mais ils n'acceptent de débourser que s'ils pensent revendre les objets à profit...(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126200000 +0100" stop="20151126202000 +0100" channel="0224">
+    <title lang="fr">Pawn Stars</title>
+    <desc lang="fr">Découvrez les activités du Gold &amp; Silver Shop, une société de prêteurs sur gages pas comme les autres. Les trois personnages clés Rick Harrison, Corey ainsi que son père Richard gèrent leur commerce de Las Vegas avec une main de fer. Qu'il s'agisse d'un alligator, de tableaux de maître, de montres de collectionneur, ou d'une dent en or les Gold achètent des objets plus ou moins loufoques. Mais ils n'acceptent de débourser que s'ils pensent revendre les objets à profit...(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126202000 +0100" stop="20151126205000 +0100" channel="0224">
+    <title lang="fr">Pawn Stars</title>
+    <desc lang="fr">Découvrez les activités du Gold &amp; Silver Shop, une société de prêteurs sur gages pas comme les autres. Les trois personnages clés Rick Harrison, Corey ainsi que son père Richard gèrent leur commerce de Las Vegas avec une main de fer. Qu'il s'agisse d'un alligator, de tableaux de maître, de montres de collectionneur, ou d'une dent en or les Gold achètent des objets plus ou moins loufoques. Mais ils n'acceptent de débourser que s'ils pensent revendre les objets à profit...(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126205000 +0100" stop="20151126224500 +0100" channel="0224">
+    <title lang="fr">Wild Wild West</title>
+    <desc lang="fr">1869. Le docteur Arliss Loveless, Président des Etats-Unis, désigne deux agents spéciaux, James West et Artemus Gordon, pour arrêter son ennemi. Si James West est un charmeur à l'humour à froid, Artemus, lui, prône la réflexion et passe son temps à inventer des gadgets. Les deux agents, rivaux, vont devoir unir leur talent pour capturer l'infâme Loveless. Rita Escobar, une belle artiste, se joint à eux.(n)</desc>
+    <credits>
+      <director>Barry Sonnenfeld</director>
+      <actor>Will Smith</actor>
+      <actor>Kevin Kline</actor>
+      <actor>Kenneth Branagh</actor>
+      <actor>Salma Hayek</actor>
+      <actor>Ted Levine</actor>
+      <actor>M Emmet Walsh</actor>
+      <actor>Sofia Eng</actor>
+      <actor>Bai Ling</actor>
+      <actor>Frederique Van Der Wal</actor>
+      <actor>Musetta Vander</actor>
+    </credits>
+    <date>1999</date>
+    <category lang="fr">ACTION</category>
+  </programme>
+  <programme start="20151126224500 +0100" stop="20151127005000 +0100" channel="0224">
+    <title lang="fr">3H10 pour Yuma</title>
+    <desc lang="fr">Ben Wade et sa bande attaquent une diligence, s'emparent d'un coffre rempli d'or et tuent le cocher. Dan Evans, un fermier, parvient à arrêter Wade. Le propriétaire du coffre promet une prime à qui mettra le bandit dans le train de 3h10 pour Yuma. Désespérément à cours d'argent pour sauver sa ferme, Evans relève le défi. La bande de Wade est bien décidée à délivrer son chef.(n)</desc>
+    <credits>
+      <director>James Mangold</director>
+      <actor>Russell Crowe</actor>
+      <actor>Christian Bale</actor>
+      <actor>Logan Lerman</actor>
+      <actor>Gretchen Mol</actor>
+      <actor>Peter Fonda</actor>
+      <actor>Vinessa Shaw</actor>
+      <actor>Dallas Roberts</actor>
+      <actor>Ben Foster</actor>
+      <actor>Alan Tudyk</actor>
+      <actor>Luce Rains</actor>
+    </credits>
+    <date>2007</date>
+    <category lang="fr">WESTERN</category>
+  </programme>
+  <programme start="20151126152000 +0100" stop="20151126171000 +0100" channel="0226">
+    <title lang="fr">Scrubs - Die Anfänger</title>
+    <sub-title lang="fr">Scrubs</sub-title>
+    <desc lang="fr">Sitcom. Le quotidien de J.D., Turk et Elliot, à l'hôpital du Sacré-Coeur, qui se retrouvent dans les situations les plus loufoques.(n)</desc>
+    <credits>
+      <actor>Zach Braff</actor>
+      <actor>Donald Faison</actor>
+      <actor>Sarah Chalke</actor>
+      <actor>Judy Reyes</actor>
+      <actor>Ken Jenkins</actor>
+      <actor>John C McGinley</actor>
+    </credits>
+    <category lang="fr">TV DRAME</category>
+  </programme>
+  <programme start="20151126171000 +0100" stop="20151126183000 +0100" channel="0226">
+    <title lang="fr">Cut</title>
+    <desc lang="fr">Dix-sept ans auparavant, Laura, adolescente et enceinte, a fui La Réunion. A jamais, croyait-elle. Mais, aujourd'hui, Laura se retrouve piégée. Elle doit quitter la métropole et retourner, à 33 ans, vivre auprès d'une belle-famille qui lui veut du mal et qui n'aura de cesse d'essayer de lui voler Jules, son fils de 17 ans. Telle une louve, la jeune mère célibataire ne se laissera pas faire et utilisera les mêmes méthodes tordues afin de se défendre. Trois épisodes.(n)</desc>
+    <credits>
+      <actor>Julie Boulanger</actor>
+      <actor>Ambroise Michel</actor>
+      <actor>Josephine Jobert</actor>
+      <actor>Sebastien Capgras</actor>
+      <actor>Antoine Stip</actor>
+      <actor>Youshaa Ravate</actor>
+    </credits>
+    <category lang="fr">TV DRAME</category>
+  </programme>
+  <programme start="20151126183000 +0100" stop="20151126185500 +0100" channel="0226">
+    <title lang="fr">Infô soir</title>
+    <sub-title lang="fr">JT Infô soir</sub-title>
+    <desc lang="fr">Bulletin d'informations.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126185500 +0100" stop="20151126204000 +0100" channel="0226">
+    <title lang="fr">H</title>
+    <sub-title lang="fr">Une histoire de garderie</sub-title>
+    <desc lang="fr">Dans l'hôpital Raymond Poincaré de Trappes, en banlieue de Paris, Jamel le standardiste, Clara Saulnier l'infirmière en chef, Aymé l'infirmier et Sabri le brancardier entretiennent une ambiance farfelue, entre gaffes, plaisanteries de mauvais goût et fautes professionnelles.(n)</desc>
+    <credits>
+      <actor>Jamel Debbouze</actor>
+      <actor>Eric Judor</actor>
+      <actor>Ramzy Bedia</actor>
+      <actor>Catherine Benguigui</actor>
+    </credits>
+    <category lang="fr">TV DRAME</category>
+  </programme>
+  <programme start="20151126204000 +0100" stop="20151126204500 +0100" channel="0226">
+    <title lang="fr">Les dessous de l'océan</title>
+    <desc lang="fr">A l'occasion de la COP 21, la conférence internationale sur le climat que Paris accueille du 30 novembre au 11 décembre prochains, \"France Ô\" réaffirme son engagement sur les questions environnementales en proposant de partir à la découverte des Dessous de l'océan. Cette série de programmes courts fondés sur la data-visualisation met en images de manière inédite et originale les grandes mutations climatiques et leurs conséquences sur l'environnement. Fonte de la banquise en Arctique, montée des eaux qui menace les populations insulaires, acidification des océans, disparition du plancton... Les principaux phénomènes évoqués à l'occasion de la COP 21 sont ici décryptés par Sébastien Folin.(n)</desc>
+    <category lang="fr">EDUCATIF</category>
+  </programme>
+  <programme start="20151126204500 +0100" stop="20151126221000 +0100" channel="0226">
+    <title lang="fr">La smala s'en mêle</title>
+    <sub-title lang="fr">Merci du cadeau</sub-title>
+    <desc lang="fr">Isabelle ravie de rencontrer enfin sa future belle famille, embarque toute la Smala en Guadeloupe, mais les huit jours de rêve se transforment en cauchemar. Le retour aux origines de Franck le fait vaciller dans son choix d'épouser Isabelle...(n)</desc>
+    <credits>
+      <actor>Michele Bernier</actor>
+      <actor>Mark Grosy</actor>
+      <actor>Julie De Bona</actor>
+      <actor>Mariama Gueye</actor>
+      <actor>Thomas Doucet</actor>
+      <actor>Remy Yen</actor>
+      <actor>Didier Cauchy</actor>
+      <actor>Jean-Michel Martial</actor>
+      <actor>Laure Moutoussamy</actor>
+      <actor>Gina Haller</actor>
+    </credits>
+    <date>2013</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.3.</episode-num>
+  </programme>
+  <programme start="20151126221000 +0100" stop="20151126234000 +0100" channel="0226">
+    <title lang="fr">La smala s'en mêle</title>
+    <sub-title lang="fr">Je vous salue Maman</sub-title>
+    <desc lang="fr">Isabelle est radieuse depuis que Franck a emménagé avec elle ! Même son divorce n'est plus qu'une formalité... Mais Luc, son ex-mari, en a décidé autrement : non content de l'avoir trompé avec sa meilleure amie, quitté sans préavis en vidant les comptes, et mis un jaguar dans les pattes à son retour, il réclame la maison familiale et la garde des enfants ! Pire, il accuse Isabelle d'être une mauvaise mère et lui met un enquêteur social sur le dos. Un coup dur pour Isabelle qui est en pleine crise d'identité depuis qu'une bonne soeur a débarqué dans sa vie et prétend être la mère qu'elle n'a jamais connue... Bref, rien ne va plus pour la smala !.(n)</desc>
+    <credits>
+      <actor>Michele Bernier</actor>
+      <actor>Mark Grosy</actor>
+      <actor>Julie De Bona</actor>
+      <actor>Mariama Gueye</actor>
+      <actor>Thomas Doucet</actor>
+      <actor>Remy Yen</actor>
+      <actor>Didier Cauchy</actor>
+      <actor>Claire Nadeau</actor>
+      <actor>Aurelie Bargeme</actor>
+      <actor>Katia Tchenko</actor>
+    </credits>
+    <date>2012</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.2.</episode-num>
+  </programme>
+  <programme start="20151126234000 +0100" stop="20151127002000 +0100" channel="0226">
+    <title lang="fr">Crossbones</title>
+    <sub-title lang="fr">Antoinette</sub-title>
+    <desc lang="fr">Série. James demande à Tom de l'aider avec son addiction à l'opium. Barbe Noire a d'autres plans pour Tom afin qu'il puisse financer son projet.(n)</desc>
+    <credits>
+      <director>Daniel Attias</director>
+      <actor>John Malkovich</actor>
+      <actor>Richard Coyle</actor>
+      <actor>Claire Foy</actor>
+      <actor>Yasmine Al Massri</actor>
+      <actor>David Hoflin</actor>
+      <actor>Tracy Ifeachor</actor>
+      <actor>Peter Stebbings</actor>
+      <actor>Julian Sands</actor>
+      <actor>Kevin Ryan</actor>
+      <actor>Michael Desante</actor>
+      <actor>Aimee Mullins</actor>
+      <actor>Lauren Shaw</actor>
+    </credits>
+    <date>2014</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.3.</episode-num>
+    <rating>
+      <value>12</value>
+    </rating>
+  </programme>
+  <programme start="20151126162000 +0100" stop="20151126171000 +0100" channel="0227">
+    <title lang="fr">Emergency Room - Die Notaufnahme</title>
+    <sub-title lang="fr">La vie après la mort</sub-title>
+    <desc lang="fr">L'explosion de l'ambulance a projeté Abby au sol. Malgré son poignet brisé, elle se lance au secours des blessés, avec Neela et Morris. Dans le véhicule, seuls Pratt et Bardelli sont encore vivants mais dans un état très grave.(n)</desc>
+    <credits>
+      <director>Christopher Misiano</director>
+      <actor>Mekhi Phifer</actor>
+      <actor>Parminder Nagra</actor>
+      <actor>Linda Cardellini</actor>
+      <actor>Maura Tierney</actor>
+      <actor>John Stamos</actor>
+      <actor>Scott Grimes</actor>
+      <actor>David Lyons</actor>
+      <actor>Gina Ravera</actor>
+      <actor>Tony Hale</actor>
+      <actor>Charlotte Rae</actor>
+    </credits>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.0.</episode-num>
+  </programme>
+  <programme start="20151126171000 +0100" stop="20151126180000 +0100" channel="0227">
+    <title lang="fr">Dr House</title>
+    <sub-title lang="fr">En mission spéciale</sub-title>
+    <desc lang="fr">Une pilote de dragster s'évanouit après avoir gagné une course. Elle intéresse House, passionné de mécanique et de vitesse. C'est alors qu'un homme de la CIA vient le chercher pour diagnostiquer un agent revenu de mission dans un état critique. Il est épaulé par le docteur Samira Terzi, qui fascine House par ses allures de James Bond girl. Foreman doit alors diriger l'équipe, qui n'en fait qu'à sa tête. House prend un malin plaisir à contredire l'un de ses confrères et à charmer Samira.(n)</desc>
+    <credits>
+      <director>Juan Jose Campanella</director>
+      <actor>Hugh Laurie</actor>
+      <actor>Lisa Edelstein</actor>
+      <actor>Omar Epps</actor>
+      <actor>Robert Sean Leonard</actor>
+      <actor>Jennifer Morrison</actor>
+      <actor>Jesse Spencer</actor>
+      <actor>Anne Dudek</actor>
+      <actor>Edi Gathegi</actor>
+      <actor>Peter Jacobson</actor>
+      <actor>Olivia Wilde</actor>
+    </credits>
+    <date>2007</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.5.</episode-num>
+  </programme>
+  <programme start="20151126180000 +0100" stop="20151126185500 +0100" channel="0227">
+    <title lang="fr">Dr House</title>
+    <sub-title lang="fr">Trop belle, trop bête ?</sub-title>
+    <desc lang="fr">Tombé sous le charme du docteur Terzi, le docteur House l'a recrutée. Mais lorsqu'il s'agit d'établir un diagnostic cohérent sur les causes de l'arrêt cardiaque d'un jeune homme atteint d'une malformation faciale, la jeune femme se montre pour le moins décevante. House aurait-il été aveuglé par sa beauté ?.(n)</desc>
+    <credits>
+      <director>David Straiton</director>
+      <actor>Hugh Laurie</actor>
+      <actor>Lisa Edelstein</actor>
+      <actor>Omar Epps</actor>
+      <actor>Robert Sean Leonard</actor>
+      <actor>Jennifer Morrison</actor>
+      <actor>Jesse Spencer</actor>
+      <actor>Anne Dudek</actor>
+      <actor>Edi Gathegi</actor>
+      <actor>Peter Jacobson</actor>
+      <actor>Olivia Wilde</actor>
+    </credits>
+    <date>2007</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.6.</episode-num>
+  </programme>
+  <programme start="20151126185500 +0100" stop="20151126195000 +0100" channel="0227">
+    <title lang="fr">Dr House</title>
+    <sub-title lang="fr">La part du mystère</sub-title>
+    <desc lang="fr">Un magicien est victime d'un arrêt cardiaque au cours d'un numéro dont Cole et Kurtner sont témoins. House refuse de considérer ce patient comme un cas intéressant. Il propose un nouveau défi aux candidats : celui qui lui rapportera la culotte de Cuddy gagnera l'immunité. Il devra alors désigner deux de ses adversaires à House qui décidera d'éliminer l'un des deux. Le magicien développe d'autres symptômes et les tremblements de Numéro Treize intriguent de plus en plus le facétieux docteur.(n)</desc>
+    <credits>
+      <director>Lesli Linka Glatter</director>
+      <actor>Hugh Laurie</actor>
+      <actor>Lisa Edelstein</actor>
+      <actor>Omar Epps</actor>
+      <actor>Robert Sean Leonard</actor>
+      <actor>Jennifer Morrison</actor>
+      <actor>Jesse Spencer</actor>
+      <actor>Anne Dudek</actor>
+      <actor>Edi Gathegi</actor>
+      <actor>Peter Jacobson</actor>
+      <actor>Olivia Wilde</actor>
+    </credits>
+    <date>2007</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.7.</episode-num>
+  </programme>
+  <programme start="20151126195000 +0100" stop="20151126204500 +0100" channel="0227">
+    <title lang="fr">Dr House</title>
+    <sub-title lang="fr">Les jeux sont faits</sub-title>
+    <desc lang="fr">Cuddy menace House de lui reprendre sa place de parking s'il ne lui donne pas deux noms à la fin de la semaine. Aussitôt, il récupère Jimmy Quid aux urgences, un chanteur punk et drogué, assez rétif aux soins. House demande à chaque candidat de proposer un diagnostic et ne leur autorise qu'un examen pour le confirmer. Le cas de la semaine devient plus que jamais un jeu, au grand dam de Foreman qui supporte toujours aussi mal les méthodes d'House.(n)</desc>
+    <credits>
+      <director>Deran Sarafian</director>
+      <actor>Hugh Laurie</actor>
+      <actor>Lisa Edelstein</actor>
+      <actor>Omar Epps</actor>
+      <actor>Robert Sean Leonard</actor>
+      <actor>Jennifer Morrison</actor>
+      <actor>Jesse Spencer</actor>
+      <actor>Anne Dudek</actor>
+      <actor>Peter Jacobson</actor>
+      <actor>Kal Penn</actor>
+      <actor>Olivia Wilde</actor>
+    </credits>
+    <date>2008</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.8.</episode-num>
+  </programme>
+  <programme start="20151126204500 +0100" stop="20151126205000 +0100" channel="0227">
+    <title lang="fr">Du côté de chez vous</title>
+    <desc lang="fr">Magazine. Des spots sur l'habitat original, surprenant, ou tout simplement reflet d'un rêve accompli.(n)</desc>
+    <category lang="fr">LOISIRS</category>
+  </programme>
+  <programme start="20151126205000 +0100" stop="20151126230500 +0100" channel="0227">
+    <title lang="fr">Stalingrad</title>
+    <desc lang="fr">Durant la Seconde Guerre Mondiale, en Septembre 1942, Hitler envisage d'envahir Stalingrad, ville clé de l'URSS qui le sépare de la victoire totale sur l'Europe. Les russes se préparent à la défensive. Un héros aiderait à motiver les troupes. Entre alors en jeu Vassili Zaitsev, un jeune tireur d'élite de l'Armée Rouge. Doué d'une stupéfiante adresse au tir, il est remarqué par un commissaire au peuple, Ivan Danilov. Les deux jeunes gens deviennent amis. Ranimer la flamme de l'héroïsme, redonner aux soldats décimés la force de lutter contre l'implacable machine de guerre allemande, telle est la mission de Danilov. Celui-ci fait de Vassili le héros de sa propagande. Dans le camp ennemi, l'état-major dépêche son meilleur tireur d'élite, le Major Konig, pour abattre celui qui est devenu le symbole de l'indomptable résistance russe.(n)</desc>
+    <credits>
+      <director>Jean-Jacques Annaud</director>
+      <actor>Jude Law</actor>
+      <actor>Joseph Fiennes</actor>
+      <actor>Ed Harris</actor>
+      <actor>Rachel Weisz</actor>
+      <actor>Bob Hoskins</actor>
+      <actor>Ron Perlman</actor>
+      <actor>Eva Mattes</actor>
+      <actor>Gabriel Thomson</actor>
+      <actor>Sophie Rois</actor>
+      <actor>Ivan Shvedoff</actor>
+      <actor>Mario Bandi</actor>
+      <actor>Hans Stier</actor>
+    </credits>
+    <date>2001</date>
+    <category lang="fr">ACTION</category>
+    <rating>
+      <value>16</value>
+    </rating>
+  </programme>
+  <programme start="20151126230500 +0100" stop="20151127005500 +0100" channel="0227">
+    <title lang="fr">World War II : les héros de l'ombre</title>
+    <desc lang="fr">Guerre. Des soldats américains perdus en territoire ennemi découvrent qu'Hitler est en train de développer une super-bombe.(n)</desc>
+    <credits>
+      <director>Don Michael Paul</director>
+      <actor>Tom Sizemore</actor>
+      <actor>Chad Michael Collins</actor>
+      <actor>Vinnie Jones</actor>
+      <actor>Dimitri Diatchenko</actor>
+      <actor>Neal McDonough</actor>
+      <actor>Jurgen Prochnow</actor>
+      <actor>Alastair Mackenzie</actor>
+      <actor>Melia Kreiling</actor>
+      <actor>Richard Sammel</actor>
+      <actor>Philip Rham</actor>
+      <actor>Atanas Srebrev</actor>
+      <actor>Zara Dimitrova</actor>
+    </credits>
+    <date>2013</date>
+    <category lang="fr">ACTION</category>
+    <rating>
+      <value>16</value>
+    </rating>
+  </programme>
+  <programme start="20151126155000 +0100" stop="20151126171500 +0100" channel="0229">
+    <title lang="fr">C'est ma vie</title>
+    <sub-title lang="fr">Au coeur des urgences d'Argenteuil</sub-title>
+    <desc lang="fr">Avec en moyenne 240 urgences à gérer par jour, l'équipe d'Argenteuil est sur le pied de guerre 24h sur 24. Du simple bobo aux cas extrêmes, les patients multi-ethniques donnent bien souvent du fil à retordre aux équipes. Face aux malades, médecins, infirmières et aides-soignantes forment une équipe soudée qui sait faire preuve de tact et de répondant. À la tête du service, le Docteur Legall, une véritable maîtresse femme. Forte de 15 ans d'expérience en tant que chef, elle fait régner rigueur et fermeté au sein de son unité, tout en étant très à l'écoute. De son côté, Cyrielle, une jeune interne, a choisi de faire son stage aux urgences pour la difficulté. Elle aime les défis ! Consciencieuse, il lui arrive parfois, en fin de garde, de refuser les cas lourds, de peur de commettre une erreur de diagnostic. Nous allons découvrir comment cette équipe, constituée essentiellement de femmes, fait face à des situations parfois extrêmement difficiles.(n)</desc>
+    <category lang="fr">LOISIRS</category>
+  </programme>
+  <programme start="20151126171500 +0100" stop="20151126180000 +0100" channel="0229">
+    <title lang="fr">Charmed - Zauberhafte Hexen</title>
+    <sub-title lang="fr">La balade des âmes</sub-title>
+    <desc lang="fr">Paige se trompe dans les mélanges en préparant une potion magique. Suite à cette mauvaise manipulation, elle se retrouve dans la peau de Phoebe. Piper tente d'inverser le sortilège pour permettre à ses sœurs de réintégrer leurs corps respectifs. Elle doit aussi aider la fille d'un maître zen dont le disciple est passé dans le camp des forces du mal.(n)</desc>
+    <credits>
+      <actor>Alyssa Milano</actor>
+      <actor>Rose McGowan</actor>
+      <actor>Holly Marie Combs</actor>
+      <actor>Julian McMahon</actor>
+      <actor>Brian Krause</actor>
+    </credits>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.3.</episode-num>
+  </programme>
+  <programme start="20151126180000 +0100" stop="20151126184500 +0100" channel="0229">
+    <title lang="fr">Charmed - Zauberhafte Hexen</title>
+    <sub-title lang="fr">Les poupées</sub-title>
+    <desc lang="fr">Paige confie à Phoebe et Piper qu'elle a eu un étrange pressentiment en passant devant une maison abandonnée. En se rendant sur place, Phoebe tombe entre les griffes d'un  démon fétichiste qui la transforme en poupée. Il s'attaque ensuite à Piper et Paige afin de compléter sa sinistre collection. Privées de leurs pouvoirs, les trois sœurs sont en danger...(n)</desc>
+    <credits>
+      <actor>Alyssa Milano</actor>
+      <actor>Rose McGowan</actor>
+      <actor>Holly Marie Combs</actor>
+      <actor>Brian Krause</actor>
+      <actor>Julian McMahon</actor>
+      <actor>Robert Englund</actor>
+    </credits>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.4.</episode-num>
+  </programme>
+  <programme start="20151126184500 +0100" stop="20151126193500 +0100" channel="0229">
+    <title lang="fr">Charmed - Zauberhafte Hexen</title>
+    <sub-title lang="fr">Un jour mon prince viendra</sub-title>
+    <desc lang="fr">Dans le Livre des Ombres, Paige découvre une page sur l'Enchanteresse, héroïne maléfique, et lit une incantation afin de connaître la fin du conte. C'est alors qu'un chevalier apparaît au manoir. Paige ressuscite aussi une diabolique enchanteresse qui n'est autre que son ancêtre tandis que Phoebe et Piper remontent le temps et se retrouvent prisonnières dans une forteresse...(n)</desc>
+    <credits>
+      <actor>Alyssa Milano</actor>
+      <actor>Rose McGowan</actor>
+      <actor>Holly Marie Combs</actor>
+      <actor>Brian Krause</actor>
+      <actor>Julian McMahon</actor>
+    </credits>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.5.</episode-num>
+  </programme>
+  <programme start="20151126193500 +0100" stop="20151126205500 +0100" channel="0229">
+    <title lang="fr">Charmed - Zauberhafte Hexen</title>
+    <sub-title lang="fr">Le point faible</sub-title>
+    <desc lang="fr">Paige emménage au manoir et met tout en oeuvre pour éviter les tensions. Les soeurs Halliwell sont alors attaquées par un nouveau démon. Pour le détruire, Piper doit céder ses pouvoirs ainsi que ceux de ses soeurs. Mais la Source s'est introduite dans son cerveau et altère sa perception des choses. Elle se retrouve alors internée dans un asile et la Source l'incite à abandonner ses pouvoirs.(n)</desc>
+    <credits>
+      <actor>Alyssa Milano</actor>
+      <actor>Rose McGowan</actor>
+      <actor>Holly Marie Combs</actor>
+      <actor>Brian Krause</actor>
+      <actor>Julian McMahon</actor>
+      <actor>Dorian Gregory</actor>
+    </credits>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.6.</episode-num>
+  </programme>
+  <programme start="20151126205500 +0100" stop="20151126214000 +0100" channel="0229">
+    <title lang="fr">Reign : le destin d'une reine</title>
+    <sub-title lang="fr">Actes de guerre</sub-title>
+    <desc lang="fr">Une révolte se prépare après la mort du pasteur protestant. Marie veut calmer les tensions en unissant Claude, la sœur du roi, à Louis Condé. Bien que Catherine et Narcisse n'approuvent pas cette idée, François soutient Marie. Narcisse tente d'empêcher ce mariage en proposant à Claude de l'épouser.(n)</desc>
+    <credits>
+      <actor>Megan Follows</actor>
+      <actor>Caitlin Stasey</actor>
+      <actor>Anna Popplewell</actor>
+      <actor>Adelaide Kane</actor>
+      <actor>Jonathan Keltz</actor>
+      <actor>Toby Regbo</actor>
+      <actor>Torrance Coombs</actor>
+      <actor>Sean Teale</actor>
+      <actor>Celina Sinden</actor>
+    </credits>
+    <date>2014</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.8.</episode-num>
+  </programme>
+  <programme start="20151126214000 +0100" stop="20151126222500 +0100" channel="0229">
+    <title lang="fr">Reign : le destin d'une reine</title>
+    <sub-title lang="fr">La traque</sub-title>
+    <desc lang="fr">François révèle son secret à Marie et le chantage dont il est victime de la part de Narcisse. Marie décide de séjourner quelques temps dans ses anciens appartements, à la grande surprise de ses amies Greer, Lola et Kenna, et leur apprend ce qui s'est passé la nuit précédente. Leith vient prévenir Greer qu'il a pour mission d'interroger tous les protestants et qu'elle doit fuir au plus vite avec son époux avant que le nom de ce dernier ne soit évoqué par l'un des prisonniers.(n)</desc>
+    <credits>
+      <actor>Megan Follows</actor>
+      <actor>Caitlin Stasey</actor>
+      <actor>Anna Popplewell</actor>
+      <actor>Adelaide Kane</actor>
+      <actor>Jonathan Keltz</actor>
+      <actor>Toby Regbo</actor>
+      <actor>Torrance Coombs</actor>
+      <actor>Sean Teale</actor>
+      <actor>Celina Sinden</actor>
+    </credits>
+    <date>2014</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.9.</episode-num>
+  </programme>
+  <programme start="20151126222500 +0100" stop="20151126231000 +0100" channel="0229">
+    <title lang="fr">Reign : le destin d'une reine</title>
+    <sub-title lang="fr">La marque du cavalier noir</sub-title>
+    <desc lang="fr">Sébastien découvre que les dix prisonniers pendus portent tous la marque du cavalier noir, marque réservée aux traîtres. Marie annonce à François qu'elle souhaite s'installer seule dans leur château de Chambord. Après les révélations d'une de ses maîtresse, Louis Condé est accusé par le Vatican de porter la marque du cavalier noir. Marie l'informe et décide de le conduire auprès du roi de Navarre, le frère de Louis, où il sera en sécurité. Kenna soupçonne Catherine de vouloir empoisonner sa fille Claude.(n)</desc>
+    <credits>
+      <actor>Megan Follows</actor>
+      <actor>Caitlin Stasey</actor>
+      <actor>Anna Popplewell</actor>
+      <actor>Adelaide Kane</actor>
+      <actor>Jonathan Keltz</actor>
+      <actor>Toby Regbo</actor>
+      <actor>Torrance Coombs</actor>
+      <actor>Sean Teale</actor>
+      <actor>Celina Sinden</actor>
+    </credits>
+    <date>2014</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.10.</episode-num>
+  </programme>
+  <programme start="20151126231000 +0100" stop="20151126235500 +0100" channel="0229">
+    <title lang="fr">Reign : le destin d'une reine</title>
+    <sub-title lang="fr">Pour l'amour d'Henri</sub-title>
+    <desc lang="fr">Sébastien annonce à Kenna qu'il a reçu des titres et des terres de la part de François. La mère de Sébastien fait des révélations à son fils concernant sa femme, quitte à semer le trouble dans son ménage. Claude demande à Sébastien de l'aider à découvrir la vérité sur la mort de ses sœurs. Les gardes du roi viennent informer Marie que l'un des prisonniers protestants accuse Castelroy, le mari de Greer, d'être le complice des radicaux qui ont attaqué le château...(n)</desc>
+    <credits>
+      <actor>Megan Follows</actor>
+      <actor>Caitlin Stasey</actor>
+      <actor>Anna Popplewell</actor>
+      <actor>Adelaide Kane</actor>
+      <actor>Jonathan Keltz</actor>
+      <actor>Toby Regbo</actor>
+      <actor>Torrance Coombs</actor>
+      <actor>Sean Teale</actor>
+      <actor>Celina Sinden</actor>
+    </credits>
+    <date>2014</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.11.</episode-num>
+  </programme>
+  <programme start="20151126235500 +0100" stop="20151127002000 +0100" channel="0229">
+    <title lang="fr">Storage wars</title>
+    <sub-title lang="fr">Du beurre avec du miel</sub-title>
+    <desc lang="fr">En Californie, les entrepôts de stockage laissés à l'abandon ou impayés par leurs propriétaires peuvent être vendus aux enchères. Des brocanteurs, redoutables en affaires, se livrent à une véritable guerre des enchères pour remporter ces garde-meubles dont ils espèrent tirer le maximum de profit. En un simple coup d'oeil et sans pouvoir examiner le contenu des box, ils doivent analyser le potentiel de ces véritables cavernes d'Ali Baba qui renferment aussi bien des trésors que des objets miteux et des surprises... feront-ils le bon choix ? Dans cet épisode, les acheteurs se rendent à Tustin, en Californie, à quelques kilomètres de Newport Beach. Les visites de Dave à Tustin ont toujours porté leurs fruits. Jarrod et Brandi veulent acheter un lot mais ne peuvent pas prendre le risque de le payer trop cher. Barry, qui a du mal à se concentrer, vient avec son ami Kenny afin que ce dernier l'empêche de dévier de sa trajectoire et enchérisse à sa place.(n)</desc>
+    <date>2013</date>
+    <category lang="fr">SPECTACLE</category>
+    <episode-num system="xmltv_ns">.24.</episode-num>
+  </programme>
+  <programme start="20151126170000 +0100" stop="20151126175500 +0100" channel="0230">
+    <title lang="fr">Face Off</title>
+    <sub-title lang="fr">Alice au pays des zombies</sub-title>
+    <desc lang="fr">Après avoir conçu pour l'épreuve fondation de multiples blessures ultra-réalistes, les candidats vont rejoindre le pays des merveilles... Enfin un pays des merveilles où a été libéré le Virus T qui transforme les êtres humains en zombies. Dans cet épisode qui mêle Lewis Carroll et \"Resident Evil\", les candidats vont devoir réimaginer un des personnages du roman en zombie. Gare au manque d'inspiration !.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+    <episode-num system="xmltv_ns">.3.</episode-num>
+  </programme>
+  <programme start="20151126175500 +0100" stop="20151126185500 +0100" channel="0230">
+    <title lang="fr">Face Off</title>
+    <sub-title lang="fr">Cylindrées et super-héros</sub-title>
+    <desc lang="fr">Le gagnant de la saison 2 rend une petite visite aux candidats et leur explique l'épreuve spotlight qui les attend : à partir de la voiture qui leur a été attribuée, les binômes vont devoir créer un super-héros ainsi que son fidèle compagnon. Kevin Smith, le réalisateur du film culte \"Clerks, les employés modèles\" sera là pour juger le résultat.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+    <episode-num system="xmltv_ns">.4.</episode-num>
+  </programme>
+  <programme start="20151126185500 +0100" stop="20151126204500 +0100" channel="0230">
+    <title lang="fr">Révélations</title>
+    <sub-title lang="fr">Chauffards : les forces de l'ordre contre-attaquent</sub-title>
+    <desc lang="fr">Face à la délinquance routière, toutes les forces de l'Etat sont mobilisées. Police nationale, gendarmerie, tous luttent pour tenter de faire baisser le nombre de tués sur les routes françaises. 3250 personnes ont perdu la vie l'année dernière. Alcool, vitesse excessive, prise de stupéfiants, téléphones portables au volant, incivilités. Le travail des gendarmes et policiers est colossal. Vont-ils réussir à sortir vainqueurs de cette véritable guerre qu'ils mènent face à ces délinquants ?.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126204500 +0100" stop="20151126212000 +0100" channel="0230">
+    <title lang="fr">Chasseur de bolides</title>
+    <sub-title lang="fr">La fièvre du road-runner</sub-title>
+    <desc lang="fr">Série documentaire. Un ancien client à besoin de l'aide de Danny afin de restaurer une Road Runner de 1971, pour pouvoir l'offrir à sa femme et belle-fille.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+    <episode-num system="xmltv_ns">.2.</episode-num>
+  </programme>
+  <programme start="20151126212000 +0100" stop="20151126215000 +0100" channel="0230">
+    <title lang="fr">Chasseur de bolides</title>
+    <desc lang="fr">Fiers de leurs tatouages, de leur gros bras et de leur air peu commode, Dany et ses amis fondent pourtant comme des enfants devant un beau châssis ! Suivez le quotidien de six passionnés de mécanique dans leur magasin de restauration et de customisation de véhicules en tout genre.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126215000 +0100" stop="20151126222000 +0100" channel="0230">
+    <title lang="fr">Chasseur de bolides</title>
+    <desc lang="fr">Fiers de leurs tatouages, de leur gros bras et de leur air peu commode, Dany et ses amis fondent pourtant comme des enfants devant un beau châssis ! Suivez le quotidien de six passionnés de mécanique dans leur magasin de restauration et de customisation de véhicules en tout genre.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126222000 +0100" stop="20151127001000 +0100" channel="0230">
+    <title lang="fr">Regarde les hommes tomber</title>
+    <desc lang="fr">Simon Hirsch, marié, la cinquantaine, est représentant de commerce en faire-part et cartes de visite. Un peu las, il ressasse son boniment à d'éventuels clients dans les centres commerciaux. Ses seuls moments de joie sont ceux qu'il partage avec son meilleur ami Mickey, un policier. Quand ce dernier, blessé en service, tombe dans le coma, Simon quitte famille et travail pour retrouver les agresseurs. Ses soupçons se portent sur deux hommes : Marx, truand vieillissant, et Johnny, le jeune homme un peu simple d'esprit qu'il a pris sous son aile et qui lui est d'un dévouement aveugle.(n)</desc>
+    <credits>
+      <director>Jacques Audiard</director>
+      <actor>Jean-Louis Trintignant</actor>
+      <actor>Jean Yanne</actor>
+      <actor>Mathieu Kassovitz</actor>
+      <actor>Bulle Ogier</actor>
+      <actor>Christine Pascal</actor>
+      <actor>Yvon Back</actor>
+      <actor>Marc Citti</actor>
+      <actor>Roger Mollien</actor>
+      <actor>Philippe du Janerand</actor>
+      <actor>Rywka Wajsbrot</actor>
+    </credits>
+    <date>1994</date>
+    <category lang="fr">THRILLER</category>
+  </programme>
+  <programme start="20151126165500 +0100" stop="20151126175000 +0100" channel="0231">
+    <title lang="fr">Yukon Gold</title>
+    <sub-title lang="fr">Un coup dur</sub-title>
+    <desc lang="fr">Les équipages sont confrontés à des situations périlleuses. Ken fait face à une double révolte à Moose Creek et des voyous trainent dans les parages. Le coût de l'or atteint un sommet mortel pour Cam et son collègue Gary à un accident sur la mine. Il doit être transporté à l'hôpital d'urgence. Un ours attaque le camp de Karl, forçant son équipage à stopper la recherche d'or pour leur survie...(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+    <episode-num system="xmltv_ns">.3.</episode-num>
+  </programme>
+  <programme start="20151126175000 +0100" stop="20151126185000 +0100" channel="0231">
+    <title lang="fr">Yukon Gold</title>
+    <sub-title lang="fr">Sur le fil</sub-title>
+    <desc lang="fr">Nous sommes à mi saison et les enjeux sont importants. Karl met sa réputation et sa relation avec son père Marty en péril. A Moose Creek, le mariage de Ken est aussi en péril après que sa femme Kina découvre que la mine est sur le point de faire faillite... Pour Big Al, rien est moins sûr...(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+    <episode-num system="xmltv_ns">.4.</episode-num>
+  </programme>
+  <programme start="20151126185000 +0100" stop="20151126194000 +0100" channel="0231">
+    <title lang="fr">Yukon Gold</title>
+    <sub-title lang="fr">Entre le marteau et le froid</sub-title>
+    <desc lang="fr">L'automne arrive bientôt sur le Yukon et les mineurs font tout pour trouver de l'or avant l'arrivée du froid. Ken utilise toutes ses machines, les rochers sont coriaces et les pannes ne sont pas une option. Pour les autres équipes, le travail est aussi à plein régime...(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+    <episode-num system="xmltv_ns">.5.</episode-num>
+  </programme>
+  <programme start="20151126194000 +0100" stop="20151126204500 +0100" channel="0231">
+    <title lang="fr">Yukon Gold</title>
+    <sub-title lang="fr">Eurêka !</sub-title>
+    <desc lang="fr">Il reste un mois avant la fin de la saison et la neige menace de faire fermer l'exploitation minière. A Moose Creek une pelleteuse ne fonctionne plus, Ken doit donc conduire toute la nuit pour aller chercher des pièces. Guillaume lui est prêt à renoncer définitivement à cette machine défectueuse et à renvoyer chez eux la moitié de son équipe plus tôt. Une rampe de lavage gelée piège l'or de Karl ce qui lui vaut une explication avec son équipe. Du côté de l'Indian River Hiro se débat avec des castors et Big Al décide d'expérimenter une technique originale.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+    <episode-num system="xmltv_ns">.6.</episode-num>
+  </programme>
+  <programme start="20151126204500 +0100" stop="20151126214500 +0100" channel="0231">
+    <title lang="fr">La France et l'espace : 50 ans de conquête</title>
+    <sub-title lang="fr">La saga des lanceurs</sub-title>
+    <desc lang="fr">Avec la fusée Diamant, la France se hisse au rang de troisième puissance spatiale mondiale. C'était il y a tout juste 50 ans, le 26 novembre 1965, Diamant place le premier satellite français, Astérix, en orbite. Une série de succès qui va donner toute la légitimité à la France dans les années 70 pour être le moteur au sein de l'Europe d'un nouveau projet de lanceur de satellites, ce sera Ariane.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+    <episode-num system="xmltv_ns">.0.</episode-num>
+  </programme>
+  <programme start="20151126214500 +0100" stop="20151126224500 +0100" channel="0231">
+    <title lang="fr">La France et l'espace : 50 ans de conquête</title>
+    <sub-title lang="fr">L'espace sur terre</sub-title>
+    <desc lang="fr">A la fin des années 70, la France envoie deux de ses compatriotes s'entraîner en URSS dans le cadre de la préparation de la première mission spatiale franco-soviétique. Jean-Loup Chrétien sera le premier Français en 1982 à partir dans l'espace. Dans ce documentaire inédit, il revient sur les débuts difficiles de son immersion ainsi que sur les raisons de son engagement.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+    <episode-num system="xmltv_ns">.1.</episode-num>
+  </programme>
+  <programme start="20151126224500 +0100" stop="20151126234500 +0100" channel="0231">
+    <title lang="fr">La France et l'espace : 50 ans de conquête</title>
+    <sub-title lang="fr">Les Français dans l'espace</sub-title>
+    <desc lang="fr">L'espace, c'est 50 ans de recherches et surtout de découvertes qui ont à jamais transformé notre fonctionnement et le regard que nous portons sur nous-même et sur les autres. La France contribue à cet épanouissement de la planète depuis qu'elle a acquis son indépendance spatiale, le 26 novembre 1965.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+    <episode-num system="xmltv_ns">.2.</episode-num>
+  </programme>
+  <programme start="20151126234500 +0100" stop="20151127004500 +0100" channel="0231">
+    <title lang="fr">La minute de vérité</title>
+    <sub-title lang="fr">L'éruption du Mont Saint-Helen</sub-title>
+    <desc lang="fr">Série documentaire. L'éruption du Mont Saint-Helen détruisit presque une montagne et élimina des centaines de mètres carré de paysage. Personne n'avait prévu une telle catastrophe.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+    <episode-num system="xmltv_ns">.3.</episode-num>
+  </programme>
+  <programme start="20151126164000 +0100" stop="20151126172500 +0100" channel="0210">
+    <title lang="fr">Rizzoli &amp; Isles</title>
+    <sub-title lang="fr">Harcèlement textuel</sub-title>
+    <desc lang="fr">Les inspecteurs doivent rassembler les indices partiels pour les conduire au meurtrier d'un couple de mari et femme faisant équipe en tant que psychiatres. Jane se retrouve plus impliquée dans l'enquête qu'elle ne le réalise. En outre, quand le département de police de Boston organise un séminaire pour médecins légistes, l'un des participants offre son aide à Jane et Maura sur leur affaire.(n)</desc>
+    <credits>
+      <director>Fred Toye</director>
+      <actor>Angie Harmon</actor>
+      <actor>Sasha Alexander</actor>
+      <actor>Brian Goodman</actor>
+      <actor>Jordan Bridges</actor>
+      <actor>Lee Thompson Young</actor>
+      <actor>Bruce McGill</actor>
+      <actor>Lorraine Bracco</actor>
+      <actor>Ed Begley Jr</actor>
+      <actor>Elya Baskin</actor>
+      <actor>Craig Morgan</actor>
+    </credits>
+    <date>2012</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.6.</episode-num>
+    <rating>
+      <value>16</value>
+    </rating>
+  </programme>
+  <programme start="20151126172500 +0100" stop="20151126174500 +0100" channel="0210">
+    <title lang="fr">La roue de la chance</title>
+    <desc lang="fr">Chaque semaine, quatre candidats se confrontent et cumulent des gains du lundi au jeudi. Le vendredi, le plus chanceux des quatre aura accès à la grande roue qui lui permettra de gagner jusqu'à 100 000 Frs.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126174500 +0100" stop="20151126181000 +0100" channel="0210">
+    <title lang="fr">Top Models</title>
+    <desc lang="fr">Feuilleton. Deux riches familles s'affrontent, les Forrester et les Logan, liées par l'univers de la haute couture où elles ont fait fortune.(n)</desc>
+    <category lang="fr">TV DRAME</category>
+  </programme>
+  <programme start="20151126181000 +0100" stop="20151126181500 +0100" channel="0210">
+    <title lang="fr">Le court du jour</title>
+    <desc lang="fr">Magazine. Petits modules de trois minutes qui traitent à chaque émission de thématiques différentes.(n)</desc>
+    <category lang="fr">LOISIRS</category>
+  </programme>
+  <programme start="20151126181500 +0100" stop="20151126185000 +0100" channel="0210">
+    <title lang="fr">La grande lessive</title>
+    <desc lang="fr">Le talk-show rafraichissant et informatif qui aborde les préoccupations quotidiennes des Romands !.(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126185000 +0100" stop="20151126185500 +0100" channel="0210">
+    <title lang="fr">Météo régionale</title>
+    <desc lang="fr">Les prévisions météorologiques régionales.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126185500 +0100" stop="20151126192000 +0100" channel="0210">
+    <title lang="fr">Couleurs locales</title>
+    <desc lang="fr">Retrouvez toute l'actualité locale et régionale de la Suisse romande grâce aux rédactions régionales de la RTS. \"Couleurs locales\" est un magazine d'informations à découvrir pour rester au plus près des événements de votre région.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126192000 +0100" stop="20151126193000 +0100" channel="0210">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques de la RTS.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126193000 +0100" stop="20151126200000 +0100" channel="0210">
+    <title lang="fr">Le 19h30</title>
+    <desc lang="fr">Bulletin d'informations de la RTS.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126200000 +0100" stop="20151126201500 +0100" channel="0210">
+    <title lang="fr">Météo</title>
+    <desc lang="fr">Retrouvez les prévisions météorologiques de la RTS.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126201500 +0100" stop="20151126211500 +0100" channel="0210">
+    <title lang="fr">Temps présent</title>
+    <desc lang="fr">\"Comment en finir avec l'Etat islamique\". Les attentats de Paris ont révélé l'effrayante capacité des terroristes de Daech à porter leur guerre au cœur de l'Europe. Comment en finir avec l'Etat islamique, cette base du terrorisme qui mène ses actions depuis l'Irak et la Syrie ? Temps Présent s'est rendu au nord de l'Irak, où les Kurdes et la coalition viennent de gagner une bataille qui montre qu'il est possible de faire reculer les terroristes et de les anéantir. \"L'Arctique, une bombe à retardement\" - Le 5 juillet 2014, la jeune Neuchâteloise Célia Sapart, glaciologue et climatologue reconnue mondialement, embarque sur le brise-glace Oden pour une traversée de l'Arctique. Objectif de l'expédition: mesurer les émissions de gaz à effet de serre en Arctique, notamment le méthane, un gaz vingt fois plus puissant que le CO2. Selon les quantités découvertes, le méthane est une vraie menace pour notre planète.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126211500 +0100" stop="20151126220500 +0100" channel="0210">
+    <title lang="fr">Person of Interest</title>
+    <sub-title lang="fr">Le complexe du sauveur</sub-title>
+    <desc lang="fr">Reese et Fusco ne savent pas comment gérer la rivalité qui oppose les patrons du crime, Elias et Dominic. En parallèle, Finch et Root sont conduits directement dans un piège extrêmement dangereux quand un indice les pousse à aller enquêter dans un endroit peu sûr, un asile. De son côté, Contrôle essaye d'en savoir plus sur \"Samaritain\"...(n)</desc>
+    <credits>
+      <director>Fred Toye</director>
+      <actor>Jim Caviezel</actor>
+      <actor>Kevin Chapman</actor>
+      <actor>Amy Acker</actor>
+      <actor>Michael Emerson</actor>
+      <actor>Annie Ilonzeh</actor>
+      <actor>John Nolan</actor>
+      <actor>Cara Buono</actor>
+      <actor>Winston Duke</actor>
+      <actor>Jamie Hector</actor>
+      <actor>Erin Dilly</actor>
+      <actor>Enrico Colantoni</actor>
+      <actor>Camryn Manheim</actor>
+    </credits>
+    <date>2015</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.20.</episode-num>
+    <rating>
+      <value>16</value>
+    </rating>
+  </programme>
+  <programme start="20151126220500 +0100" stop="20151126225000 +0100" channel="0210">
+    <title lang="fr">Person of Interest</title>
+    <sub-title lang="fr">En cours d'extinction</sub-title>
+    <desc lang="fr">Finch et Root luttent pour sauver la Machine, qui a été localisée par l'intelligence artificielle rivale, \"Samaritain\". Pendant ce temps, Reese est pris en plein milieu de la confrontation finale entre les patrons du crime, Elias et Dominic...(n)</desc>
+    <credits>
+      <director>Chris Fisher</director>
+      <actor>Jim Caviezel</actor>
+      <actor>Kevin Chapman</actor>
+      <actor>Amy Acker</actor>
+      <actor>Michael Emerson</actor>
+      <actor>Annie Ilonzeh</actor>
+      <actor>John Doman</actor>
+      <actor>Wrenn Schmidt</actor>
+      <actor>Luke Kleintank</actor>
+      <actor>Winston Duke</actor>
+      <actor>John Nolan</actor>
+      <actor>Nick E Tarabay</actor>
+      <actor>Suzy Jane Hunt</actor>
+      <actor>Jessica Pimentel</actor>
+      <actor>Enrico Colantoni</actor>
+      <actor>Camryn Manheim</actor>
+      <actor>Robert Ray Manning Jr.</actor>
+    </credits>
+    <date>2015</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.21.</episode-num>
+    <rating>
+      <value>12</value>
+    </rating>
+  </programme>
+  <programme start="20151126225000 +0100" stop="20151126235000 +0100" channel="0210">
+    <title lang="fr">La puce à l'oreille</title>
+    <desc lang="fr">Magazine culturel itinérant. Des invités vont chacun voir un spectacle, une expo, un concert, puis partagent leurs impressions autour d'une table de bar ou de restaurant.(n)</desc>
+    <category lang="fr">LOISIRS</category>
+  </programme>
+  <programme start="20151126235000 +0100" stop="20151127005000 +0100" channel="0210">
+    <title lang="fr">Kaboul Song</title>
+    <desc lang="fr">Après 20 ans d'exil aux portes de Genève, Ustad Hossein Arman, chanteur très populaire en Afghanistan, retourne à Kaboul en tant que juré de l'émission \"Afghan Star\". Ses chansons résonnent toujours dans ce pays ravagé par les guerres. Un voyage aux accents nostalgiques.(n)</desc>
+    <category lang="fr">SOCIAL/POLITIQUE</category>
+  </programme>
+  <programme start="20151126164500 +0100" stop="20151126184500 +0100" channel="0212">
+    <title lang="fr">Football</title>
+    <desc lang="fr">Ligue Europa. L'Europa Ligue UEFA en direct, où le FC Rubin Kazan affronte le FC Sion.(n)</desc>
+    <category lang="fr">SPORT</category>
+  </programme>
+  <programme start="20151126184500 +0100" stop="20151126211500 +0100" channel="0212">
+    <title lang="fr">Football</title>
+    <desc lang="fr">Ligue Europa. L'Europa Ligue UEFA en direct, où le FC Bâle affronte la Fiorentina.(n)</desc>
+    <category lang="fr">SPORT</category>
+  </programme>
+  <programme start="20151126211500 +0100" stop="20151126212500 +0100" channel="0212">
+    <title lang="fr">Résultats du Trio Magic, Magic 4 et Banco</title>
+    <desc lang="fr">Trio Magic est un jeu télévisé dont le principe est simple et ludique : il suffit de choisir trois numéros compris entre 0 et 9 pour former une combinaison à trois chiffres. Gagne alors toute personne qui a coché, dans l'ordre ou le désordre, la bonne combinaison. Suivi du jeu de loterie \"Magic 4\", puis de \"Banco\".(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126212500 +0100" stop="20151126232000 +0100" channel="0212">
+    <title lang="fr">Casse-tête chinois</title>
+    <desc lang="fr">Xavier vient d'avoir 40 ans et sa vie est toujours un casse-tête. C'est même un sentiment de gâchis qui l'envahit lorsqu'il se met en tête d'en faire le bilan. Il est séparé de Wendy depuis maintenant six mois et cette dernière a décidé de partir vivre à New York en y emmenant ses deux enfants. Parce que l'éloignement lui est trop douloureux, Xavier choisit, lui aussi, de s'y installer. À Brooklyn, il retrouve Isabelle qui vit avec sa nouvelle \"girlfriend\" et est enceinte de lui ; il tente aussi de trouver un boulot et de remonter la pente...(n)</desc>
+    <credits>
+      <director>Cedric Klapisch</director>
+      <actor>Romain Duris</actor>
+      <actor>Audrey Tautou</actor>
+      <actor>Cecile de France</actor>
+      <actor>Kelly Reilly</actor>
+      <actor>Sandrine Holt</actor>
+      <actor>Flore Buenaventura</actor>
+      <actor>Benoit Jacquot</actor>
+      <actor>Margaux Mansart</actor>
+      <actor>Pablo Mugnier-Jacob</actor>
+      <actor>Amin Djakliou</actor>
+    </credits>
+    <date>2013</date>
+    <category lang="fr">COMÉDIE</category>
+    <rating>
+      <value>4</value>
+    </rating>
+  </programme>
+  <programme start="20151126232000 +0100" stop="20151126232600 +0100" channel="0212">
+    <title lang="fr">Le court du jour</title>
+    <desc lang="fr">Magazine. Petits modules de trois minutes qui traitent à chaque émission de thématiques différentes.(n)</desc>
+    <category lang="fr">LOISIRS</category>
+  </programme>
+  <programme start="20151126232600 +0100" stop="20151126233000 +0100" channel="0212">
+    <title lang="fr">Résultats du Trio Magic, Magic 4 et Banco</title>
+    <desc lang="fr">Trio Magic est un jeu télévisé dont le principe est simple et ludique : il suffit de choisir trois numéros compris entre 0 et 9 pour former une combinaison à trois chiffres. Gagne alors toute personne qui a coché, dans l'ordre ou le désordre, la bonne combinaison. Suivi du jeu de loterie \"Magic 4\", puis de \"Banco\".(n)</desc>
+    <category lang="fr">SPECTACLE</category>
+  </programme>
+  <programme start="20151126233000 +0100" stop="20151127002000 +0100" channel="0212">
+    <title lang="fr">Scandal</title>
+    <sub-title lang="fr">Le diable s'en est mêlé</sub-title>
+    <desc lang="fr">L'experte en communication Olivia Pope est la maîtresse de Fitz, le président des Etats-Unis, et quelqu'un a révélé leur liaison à la presse. Les voilà dans de beaux draps... Qui a trahi ? L'équipe d'Olivia est-elle allée trop loin ? Des têtes pourraient tomber et des carrières s'effondrer. En attendant, Olivia et ses \"gladiators in suits\" vont encore avoir du fil à retordre et de nouvelles crises à régler dans les couloirs de la Maison Blanche.(n)</desc>
+    <credits>
+      <director>Tom Verica</director>
+      <actor>Kerry Washington</actor>
+      <actor>Columbus Short</actor>
+      <actor>Scott Foley</actor>
+      <actor>Darby Stanchfield</actor>
+      <actor>Katie Lowes</actor>
+      <actor>Guillermo Diaz</actor>
+      <actor>Jeff Perry</actor>
+      <actor>Joshua Malina</actor>
+      <actor>Bellamy Young</actor>
+      <actor>Tony Goldwyn</actor>
+    </credits>
+    <date>2013</date>
+    <category lang="fr">TV DRAME</category>
+    <episode-num system="xmltv_ns">.9.</episode-num>
+    <rating>
+      <value>12</value>
+    </rating>
+  </programme>
+  <programme start="20151126160000 +0100" stop="20151126173000 +0100" channel="0228">
+    <title lang="fr">Le journal</title>
+    <desc lang="fr">Journal. Une édition tous les quarts d'heure, réactualisée dès qu'un score, une info ou une interview tombent. Un condensé d'actualité pour ne rien manquer sur la planète sport.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126173000 +0100" stop="20151126180000 +0100" channel="0228">
+    <title lang="fr">Le magazine de l'auto</title>
+    <desc lang="fr">L'Equipe 21 lance son magazine consacré à l'automobile.(n)</desc>
+    <category lang="fr">LOISIRS</category>
+  </programme>
+  <programme start="20151126180000 +0100" stop="20151126190000 +0100" channel="0228">
+    <title lang="fr">L'Equipe Type</title>
+    <desc lang="fr">Magazine.(n)</desc>
+    <category lang="fr">LOISIRS</category>
+  </programme>
+  <programme start="20151126190000 +0100" stop="20151126193000 +0100" channel="0228">
+    <title lang="fr">La Grande édition</title>
+    <sub-title lang="fr">La Grande Edition</sub-title>
+    <desc lang="fr">Magazine.(n)</desc>
+    <category lang="fr">LOISIRS</category>
+  </programme>
+  <programme start="20151126193000 +0100" stop="20151126203000 +0100" channel="0228">
+    <title lang="fr">L'Equipe Type</title>
+    <desc lang="fr">Magazine.(n)</desc>
+    <category lang="fr">LOISIRS</category>
+  </programme>
+  <programme start="20151126203000 +0100" stop="20151126204500 +0100" channel="0228">
+    <title lang="fr">Le journal</title>
+    <desc lang="fr">Journal. Une édition tous les quarts d'heure, réactualisée dès qu'un score, une info ou une interview tombent. Un condensé d'actualité pour ne rien manquer sur la planète sport.(n)</desc>
+    <category lang="fr">INFORMATIONS</category>
+  </programme>
+  <programme start="20151126204500 +0100" stop="20151126223000 +0100" channel="0228">
+    <title lang="fr">Boxe</title>
+    <desc lang="fr">Boxe. Au programme, le best of d'Apocalypse 2.(n)</desc>
+    <category lang="fr">SPORT</category>
+  </programme>
+  <programme start="20151126223000 +0100" stop="20151127000000 +0100" channel="0228">
+    <title lang="fr">L'Equipe du soir</title>
+    <desc lang="fr">Olivier Ménard, accompagné de son équipe d'experts et de ses invités, revient sur les faits marquants de l'actualité sportive. Participez à l'émission en posant vos questions via les réseaux sociaux, pour donner votre avis, émettre un commentaire ou répondre à la question du jour. L'Equipe du Soir : une émission interactive et participative.(n)</desc>
+    <category lang="fr">LOISIRS</category>
+  </programme>
+  <programme start="20151126150000 +0100" stop="20151126180000 +0100" channel="0238">
+    <title lang="fr">Montagne TV</title>
+    <desc lang="fr">Les grilles de programmes ne sont pas disponibles, veuillez nous excuser pour la gêne occasionée.(n)</desc>
+  </programme>
+  <programme start="20151126180000 +0100" stop="20151126210000 +0100" channel="0238">
+    <title lang="fr">Montagne TV</title>
+    <desc lang="fr">Les grilles de programmes ne sont pas disponibles, veuillez nous excuser pour la gêne occasionée.(n)</desc>
+  </programme>
+  <programme start="20151126210000 +0100" stop="20151126230000 +0100" channel="0238">
+    <title lang="fr">Montagne TV</title>
+    <desc lang="fr">Les grilles de programmes ne sont pas disponibles, veuillez nous excuser pour la gêne occasionée.(n)</desc>
+  </programme>
+  <programme start="20151126230000 +0100" stop="20151127000000 +0100" channel="0238">
+    <title lang="fr">Montagne TV</title>
+    <desc lang="fr">Les grilles de programmes ne sont pas disponibles, veuillez nous excuser pour la gêne occasionée.(n)</desc>
+  </programme>
+</tv>
