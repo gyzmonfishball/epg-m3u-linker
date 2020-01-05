@@ -36,6 +36,7 @@
   },
   "dependencies": {
     "antd": "^3.22.0",
+    "electron-devtools-installer": "^2.2.4",
     "electron-rebuild": "^1.8.6",
     "electron-redux": "^1.4.0",
     "graphql": "^14.5.4",

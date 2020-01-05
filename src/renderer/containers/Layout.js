@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
+import { Link } from "react-router-dom";
 
 import { Layout, Menu, Icon } from 'antd';
 import 'antd/dist/antd.css';
 
 const { Header, Sider, Content } = Layout;
+const { SubMenu } = Menu;
 
 const RootLayout = ({children}) => {
 
@@ -20,10 +22,21 @@ const RootLayout = ({children}) => {
                 <Icon type="dashboard" />
                 <span>Dashboard</span>
             </Menu.Item>
-            <Menu.Item key="2">
-                <Icon type="file" />
-                <span>M3U</span>
-            </Menu.Item>
+            <SubMenu 
+                key="2" 
+                title={
+                    <span>
+                        <Icon type="file" />
+                        <span>M3U</span>
+                    </span>
+                }
+            >
+              <Menu.Item key="21">
+                <Icon type="import" />
+                  <span>Import</span>
+                  <Link to="/m3u/upload" />
+              </Menu.Item>
+            </SubMenu>
             <Menu.Item key="3">
                 <Icon type="file" />
                 <span>XMLTV</span>

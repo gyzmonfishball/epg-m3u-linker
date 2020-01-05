@@ -5,3 +5,6 @@ export const _get_m3u = singleValuePayload(GET_M3U);
 
 export const SET_M3U = 'SET_M3U';
 export const _set_m3u = singleValuePayload(SET_M3U);
+
+export const UPLOAD_M3U = 'UPLOAD_M3U';
+export const _upload_m3u = singleValuePayload(UPLOAD_M3U);
