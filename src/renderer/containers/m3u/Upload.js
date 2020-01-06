@@ -53,7 +53,7 @@ const M3UUpload = ({
             <Row>
                 <Col span={12}>
                 <Upload
-                  multiple={true}
+                  accept=".m3u"
                   customRequest={dummyRequest}
                   onChange={onChange}
                 >

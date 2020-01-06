@@ -1,5 +1,5 @@
 import {
-    SET_M3U, UPLOAD_M3U,
+    SET_M3U, SET_UPLOAD,
 } from '../../shared/actionCreators/m3u';
 
 const initialState = {
@@ -14,7 +14,7 @@ export default function m3us(state=initialState, action) {
             const processed = [ ...state.processed ].push(payload.value);
             return { ...state, processed };
         }
-        case UPLOAD_M3U: {
+        case SET_UPLOAD: {
             return { ...state, upload: payload.value };
         }
         default:
