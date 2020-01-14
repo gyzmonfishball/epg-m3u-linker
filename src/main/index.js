@@ -75,11 +75,11 @@ app.on('activate', () => {
 // create main BrowserWindow when electron is ready
 app.on('ready', async () => {
 
-  const db = DB({path: './main.db'});
-  db.init();
+  global.db = DB({path: './main.db'});
+  global.db.init();
 
   //graphQLUtils.query('{ getChannel(id: 1) { name } }').then(response => console.log(response)); //schema())
-  schema.map(table => table.create(db));
+  schema.map(table => table.create(global.db));
 
   // Initialise the store
   await initStore();

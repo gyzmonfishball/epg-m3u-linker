@@ -74,6 +74,7 @@ export const resolver = new Resolver();
 
 function GraphQLUtils () {
     this._query = (query) => graphql(schema.get(), query, resolverObj);
+    this._addModels = (models) => models.map(model => schema.addModel(model));
     this._addQueries = (queries) => queries.map(query => schema.addQuery(query));
     this._addMutations = (mutations) => mutations.map(mutation => schema.addMutation(mutation));
     this._addResolvers = (resolvers) => resolvers.map(r => resolver.add(r));
@@ -81,6 +82,7 @@ function GraphQLUtils () {
 
 GraphQLUtils.prototype = {
     query: function(query) { return this._query(query); },
+    addModels: function(models) { return this._addModels(models); },
     addQueries: function(queries) { return this._addQueries(queries); },
     addMutations: function(mutations) { return this._addMutations(mutations); },
     addResolvers: function(resolvers) { return this._addResolvers(resolvers); },
@@ -96,7 +98,7 @@ export const graphQLUtils = new GraphQLUtils();
 function GraphQLBuilder (options = {}) {
 
     let _config = {
-        model: null,
+        models: [],
         queries: [],
         mutations: [],
         resolvers: []
@@ -104,7 +106,7 @@ function GraphQLBuilder (options = {}) {
 
     (() => { 
         Object.assign(_config, options);
-        _config.model && schema.addModel(_config.model);
+        _config.models.length > 0 && sgraphQLUtilschema.addModels(_config.models);
         _config.queries.length > 0 && graphQLUtils.addQueries(_config.queries);
         _config.mutations.length > 0 && graphQLUtils.addMutations(_config.mutations);
         _config.resolvers.length > 0 && graphQLUtils.addResolvers(_config.resolvers);

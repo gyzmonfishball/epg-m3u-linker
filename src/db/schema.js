@@ -1,15 +1,15 @@
-import channel from '../model/channel';
-import config from '../model/config';
-import postprocess from '../model/postprocess';
-import retry from '../model/retry';
-import configToChannel from '../model/configToChannel';
+import webgrabChannel from '../model/webgrab/channel';
+import webgrabConfig from '../model/webgrab/config';
+import webgrabPostprocess from '../model/webgrab/postprocess';
+import webgrabRetry from '../model/webgrab/retry';
+import webgrabConfigToChannel from '../model/webgrab/configToChannel';
 
 const schema = [
-    channel.tblInstance(),
-    config.tblInstance(),
-    postprocess.tblInstance(),
-    retry.tblInstance(),
-    configToChannel.tblInstance()
+    webgrabChannel.tblInstance(),
+    webgrabConfig.tblInstance(),
+    webgrabPostprocess.tblInstance(),
+    webgrabRetry.tblInstance(),
+    webgrabConfigToChannel.tblInstance()
 ];
 
 export default schema;

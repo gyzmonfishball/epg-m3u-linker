@@ -2,7 +2,7 @@
 
 const sqlite3 = require('sqlite3').verbose();
 
-const DB = (options) => {
+function DB (options) {
 
     let _config = {
         path: null,
@@ -11,28 +11,55 @@ const DB = (options) => {
 
     let _instance = null;
 
-    const _handleResponse = (err, msg) => {
+    this._handleResponse = (err, msg) => {
         if (err) console.error(err.message);
         else console.log(msg);
     }
 
     const _connect = () => new sqlite3.Database(_config.path, _config.openOpts, err => _handleResponse(err, 'Connected to main database'));
 
-    const _close = () => _dbInstance.close(err => _handleResponse(err, 'Closed the database connection'));
+    this._close = () => _dbInstance.close(err => _handleResponse(err, 'Closed the database connection'));
 
-    const _init = () => { _instance = _connect(); }
+    this._init = () => { _instance = _connect(); }
 
-    const _getInstance = () => _instance;
+    this._getInstance = () => _instance;
+
+    this._createRow = (table, fields) => {
+        const insert_query = 'INSERT INTO {table}({columns}) VALUES ({values});'
+        .replace('{table}', table)
+        .replace('{columns}', Object.keys(fields).join(', '))
+        .replace('{values}', Object.values(fields).join(', '));
+       
+        _instance.run(insert_query, err => db.handleResponse(err, `Values for ${table} successfully inserted`));
+
+        if (typeof(this.lastID) !== 'undefined') {
+            const get_query = 'SELECT * FROM {table} WHERE id = {lastID};'
+            .replace('{table}', table)
+            .replace('{lastID}', this.lastID);
+                
+            return _instance.get(get_query, (err, row) => {
+                if (err) {
+                    console.error(err.message);
+                    return undefined
+                }
+                return row
+            });
+        }
+
+        return undefined
+        
+    }
 
     (() => Object.assign(_config, options))();
 
-    return {
-        init: _init,
-        close: _close,
-        instance: _getInstance,
-        handleResponse: _handleResponse
-    }
+}
 
+DB.prototype = {
+    init: function() { this._init(); },
+    close: function() { this._close(); },
+    instance: function() { return this._getInstance(); },
+    handleResponse: function(err, msg) { return this._handleResponse(err, msg); },
+    createRow: function(table, fields) { return this._createRow(table, fields); }
 }
 
 export default DB;
