@@ -2,6 +2,7 @@ import { all, takeEvery } from 'redux-saga/effects';
 
 import { UPLOAD_M3U } from '../../shared/actionCreators/m3u'
 import { readFileByLine } from '../utils';
+import { M3UPROPMAP } from '../utils/constants';
 
 function* processM3U(action) {
   try {
@@ -13,39 +14,48 @@ function* processM3U(action) {
       },
     } = action;
 
-    const propMap = {
-      'tvg-ID': 'ID',
-      'tvg-name': 'name',
-      'group-title': 'group'
-    };
+    const channels = [];
+    const links = [];
 
     let count = 0;
     readFileByLine(
       value.path, 
       (line) => {
 
-        
-
         switch(true) {
-          case line.startsWith('#EXTINF'):
-            line.split(' ').map(prop => { 
-              propKeyPair = prop.split('=');
-              
-              
-            });
-            break;
-          case line.startsWith('http'):
-            break;
-          default:
-            break;
-        }
-        
 
+          case line.startsWith('#EXTINF'):
+            let channel = {};
+            Object.keys(M3UPROPMAP).map((key, idx) => {
+              const re = new RegExp(`${key}=".*?"`, 'g'); // Check for m3ukey="value" in line
+              const m3uProp = line.match(re);
+              if (m3uProp != null) {
+                channel[key] = m3uProp[0].split(/[=]/).map(item => item.replace(/"/g, ''))[1];
+                //console.log(m3uProp[0].split(/["=]/).filter(item => item));
+              }
+            });
+            channels.push(channel);
+            break;
+
+          case /https?:\/\/.*/g.test(line):
+            links.push(line);
+            break;
+
+          case /#EXTM3U/g.test(line):
+            break;
+
+          default:
+            throw `Not a valid M3U formatted line: ${line}`;
+        }
       }, 
       (data) => {
         count += data.length;
-        console.log(count/value.size*100);
-      });
+        //console.log(count/value.size*100);
+      }).then(
+        console.log({channels, links})
+      );
+
+      
 
   } catch (e) {
     console.log('error', e.message);

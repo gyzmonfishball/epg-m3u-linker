@@ -75,7 +75,7 @@ app.on('activate', () => {
 // create main BrowserWindow when electron is ready
 app.on('ready', async () => {
 
-  global.db = DB({path: './main.db'});
+  global.db = new DB({path: './main.db'});
   global.db.init();
 
   //graphQLUtils.query('{ getChannel(id: 1) { name } }').then(response => console.log(response)); //schema())

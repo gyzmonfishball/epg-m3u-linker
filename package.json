@@ -1,6 +1,7 @@
 {
   "name": "electron-quick-start",
   "version": "1.0.0",
+  "main": "src/main/",
   "description": "A minimal Electron application",
   "scripts": {
     "dev": "electron-webpack dev",

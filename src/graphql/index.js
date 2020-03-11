@@ -106,7 +106,7 @@ function GraphQLBuilder (options = {}) {
 
     (() => { 
         Object.assign(_config, options);
-        _config.models.length > 0 && sgraphQLUtilschema.addModels(_config.models);
+        _config.models.length > 0 && graphQLUtils.addModels(_config.models);
         _config.queries.length > 0 && graphQLUtils.addQueries(_config.queries);
         _config.mutations.length > 0 && graphQLUtils.addMutations(_config.mutations);
         _config.resolvers.length > 0 && graphQLUtils.addResolvers(_config.resolvers);
