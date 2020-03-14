@@ -1,9 +1,10 @@
 import {
-    SET_M3U, SET_UPLOAD,
+    SET_M3U, SET_UPLOAD, SET_PENDING_M3U, SET_PENDING_M3U_PROGRESS
 } from '../../shared/actionCreators/m3u';
 
 const initialState = {
-    processed: []
+    processed: [],
+    pending: {}
 };
 
 export default function m3us(state=initialState, action) {
@@ -16,6 +17,12 @@ export default function m3us(state=initialState, action) {
         }
         case SET_UPLOAD: {
             return { ...state, upload: payload.value };
+        }
+        case SET_PENDING_M3U: {
+            return { ...state, pending: {...state.pending, channels: payload.value} };
+        }
+        case SET_PENDING_M3U_PROGRESS: {
+            return { ...state, pending: {...state.pending, progress: payload.value} };
         }
         default:
             return state;

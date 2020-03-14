@@ -36,7 +36,6 @@ export default function configureStore(initialState, scope = 'main') {
     ];
   }
 
-
   const rootReducer = getRootReducer();
   const store = createStore(rootReducer, initialState, composeWithDevTools(
     applyMiddleware(...middleware),

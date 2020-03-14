@@ -1,6 +1,6 @@
 import { createAliasedAction } from 'electron-redux';
 
-export const singleValuePayload = type => createAliasedAction(
+export const aliasedSingleValuePayload = type => createAliasedAction(
     type,
     value => ({
         type,
@@ -9,3 +9,14 @@ export const singleValuePayload = type => createAliasedAction(
         }
     })
 );
+
+export const singleValuePayload = type => {
+    return value => ({
+      type,
+      payload: {
+        value,
+      },
+    });
+  }
+
+export const noPayload = type => () => ({type});

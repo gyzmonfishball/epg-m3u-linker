@@ -1,8 +1,9 @@
-import { all, takeEvery } from 'redux-saga/effects';
+import { all, takeEvery, put, select } from 'redux-saga/effects';
 
-import { UPLOAD_M3U } from '../../shared/actionCreators/m3u'
+import { UPLOAD_M3U, GET_PROGRESS, _set_pending_m3u, _set_pending_m3u_progress } from '../../shared/actionCreators/m3u'
 import { readFileByLine } from '../utils';
 import { M3UPROPMAP } from '../utils/constants';
+import { getStore } from '../store';
 
 function* processM3U(action) {
   try {
@@ -15,10 +16,10 @@ function* processM3U(action) {
     } = action;
 
     const channels = [];
-    const links = [];
+    const store = getStore();
 
     let count = 0;
-    readFileByLine(
+    yield readFileByLine(
       value.path, 
       (line) => {
 
@@ -31,14 +32,13 @@ function* processM3U(action) {
               const m3uProp = line.match(re);
               if (m3uProp != null) {
                 channel[key] = m3uProp[0].split(/[=]/).map(item => item.replace(/"/g, ''))[1];
-                //console.log(m3uProp[0].split(/["=]/).filter(item => item));
               }
             });
             channels.push(channel);
             break;
 
           case /https?:\/\/.*/g.test(line):
-            links.push(line);
+            channels[channels.length-1].link = line
             break;
 
           case /#EXTM3U/g.test(line):
@@ -50,11 +50,10 @@ function* processM3U(action) {
       }, 
       (data) => {
         count += data.length;
-        //console.log(count/value.size*100);
-      }).then(
-        console.log({channels, links})
-      );
-
+        store && store.dispatch(_set_pending_m3u_progress(count/value.size*100));
+      });
+      
+      yield put(_set_pending_m3u(channels))
       
 
   } catch (e) {
@@ -66,7 +65,7 @@ export default function* () {
     try {
       console.log('sagas started');
       yield all([
-        takeEvery(UPLOAD_M3U, processM3U),
+        takeEvery(UPLOAD_M3U, processM3U)
       ]);
     } catch (e) {
       logger.log('error', e.message);

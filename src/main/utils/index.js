@@ -13,17 +13,14 @@ export const readFileByLine = (path, lineFunction, dataFunction = () => {}) => {
         console: false
     });
 
-    readInterface.on( 'SIGINT', () => resolve() );
+    readInterface.on('close', () => resolve());
 
     file.on('data', function(data) {
         //console.log(data);
         dataFunction(data);
     });
 
-    readInterface.on('line', function(line) {
-        //console.log(line)
-        lineFunction(line);
-    });
+    readInterface.on('line', line => lineFunction(line));
 
     return p;
     
