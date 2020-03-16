@@ -1,13 +1,14 @@
 import {
-    SET_M3U, SET_UPLOAD, SET_PENDING_M3U, SET_PENDING_M3U_PROGRESS
+    SET_M3U, SET_UPLOAD, SET_PENDING_M3U, SET_PENDING_M3U_PROGRESS, SET_PENDING_M3U_STATUS
 } from '../../shared/actionCreators/m3u';
 import { M3UPROPMAP } from '../utils/constants';
 
 const initialState = {
     processed: [],
     pending: {
-        fields: Object.keys(M3UPROPMAP).map(key => key)
-    }
+        fields: Object.keys(M3UPROPMAP).map(key => key),
+        status: {}
+    },
 };
 
 export default function m3us(state=initialState, action) {
@@ -26,6 +27,9 @@ export default function m3us(state=initialState, action) {
         }
         case SET_PENDING_M3U_PROGRESS: {
             return { ...state, pending: {...state.pending, progress: payload.value} };
+        }
+        case SET_PENDING_M3U_STATUS: {
+            return { ...state, pending: { ...state.pending, status: payload} };
         }
         default:
             return state;
