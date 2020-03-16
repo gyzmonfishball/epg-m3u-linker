@@ -44,7 +44,7 @@ const M3UUpload = ({
     onSuccess("ok");
   }, 1);
 
-  const displayTable = () =>
+  const renderTable = () =>
     channels && status === SUCCESS &&
     <span>
       <Table
@@ -52,14 +52,14 @@ const M3UUpload = ({
         data={channels}
         setData={data => setChannels(data)}
       />;
-      <Button type="primary">Save</Button>
+      <Button type="primary">Finalise Import</Button>
     </span>
 
-  const displayNotification = () =>
+  const renderNotification = () =>
     status && 
     Notification({status, message, description});
 
-  const displayProgressBar = () => 
+  const renderProgressBar = () => 
     progress != null &&
     status === INPROGRESS && 
     <Progress percent={progress} size="small" />;
@@ -76,9 +76,9 @@ const M3UUpload = ({
                   >
                     <Button>Choose File</Button>
                   </Upload>
-                  {displayProgressBar()}
-                  {displayTable()}
-                  {displayNotification()}
+                  {renderProgressBar()}
+                  {renderTable()}
+                  {renderNotification()}
                 </TabPane>
                 <TabPane tab="Download" key="download">
                       Download from URL
