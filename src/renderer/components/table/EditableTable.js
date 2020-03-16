@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, Input, InputNumber, Popconfirm, Form } from 'antd';
+import { Table, Input, InputNumber, Popconfirm, Form, Divider } from 'antd';
 
 const EditableContext = React.createContext();
 
@@ -59,6 +59,7 @@ class EditableTable extends React.Component {
         dataIndex: 'operation',
         render: (text, record) => {
           const { editingKey } = this.state;
+          const { data } = this.props;
           const editable = this.isEditing(record);
           return editable ? (
             <span>
@@ -77,9 +78,19 @@ class EditableTable extends React.Component {
               </Popconfirm>
             </span>
           ) : (
-            <a disabled={editingKey !== ''} onClick={() => this.edit(record.key)}>
-              Edit
-            </a>
+            <span>
+              <a disabled={editingKey !== ''} onClick={() => this.edit(record.key)}>
+                Edit
+              </a>
+              {data.length >= 1 ? (
+                <span>
+                  <Divider type="vertical" />
+                  <Popconfirm title="Sure to delete?" onConfirm={() => this.delete(record.key)}>
+                    <a>Delete</a>
+                  </Popconfirm>
+                </span>
+              ) : null}
+            </span>
           );
         },
       },
@@ -117,6 +128,11 @@ class EditableTable extends React.Component {
       }
     });
   }
+
+  delete(key) {
+    const { data, setData } = this.props;
+    setData(data.filter(item => item.key !== key));
+  };
 
   edit(key) {
     this.setState({ editingKey: key });

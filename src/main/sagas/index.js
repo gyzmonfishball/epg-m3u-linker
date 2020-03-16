@@ -19,6 +19,7 @@ function* processM3U(action) {
     const store = getStore();
 
     let count = 0;
+    let key = 0;
     yield readFileByLine(
       value.path, 
       (line) => {
@@ -34,7 +35,8 @@ function* processM3U(action) {
                 channel[key] = m3uProp[0].split(/[=]/).map(item => item.replace(/"/g, ''))[1];
               }
             });
-            channels.push(channel);
+            key++;
+            channels.push({...channel, key});
             break;
 
           case /https?:\/\/.*/g.test(line):

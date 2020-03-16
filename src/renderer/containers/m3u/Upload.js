@@ -56,7 +56,6 @@ const M3UUpload = ({
                   {channels && <Table
                     cols={generateTableColumns(fields)}
                     data={channels}
-                    rowKey='tvg-ID'
                     setData={data => setChannels(data)}
                   />}
                 </TabPane>
