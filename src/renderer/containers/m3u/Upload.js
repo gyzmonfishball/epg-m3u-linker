@@ -34,11 +34,6 @@ const generateTableColumns = fields => fields.map(field => ({
   editable: true,
 }));
 
-const displayProgressBar = progress => 
-  progress != null &&
-  status === INPROGRESS && 
-  <Progress percent={progress} size="small" />;
-
 const M3UUpload = ({
   m3u_upload: { progress, channels, fields, status: { status, message, description } },
   actions: { upload, setChannels }
@@ -51,15 +46,23 @@ const M3UUpload = ({
 
   const displayTable = () =>
     channels && status === SUCCESS &&
-    <Table
-      cols={generateTableColumns(fields)}
-      data={channels}
-      setData={data => setChannels(data)}
-    />;
+    <span>
+      <Table
+        cols={generateTableColumns(fields)}
+        data={channels}
+        setData={data => setChannels(data)}
+      />;
+      <Button type="primary">Save</Button>
+    </span>
 
   const displayNotification = () =>
     status && 
     Notification({status, message, description});
+
+  const displayProgressBar = () => 
+    progress != null &&
+    status === INPROGRESS && 
+    <Progress percent={progress} size="small" />;
 
   return (
     <Layout>
@@ -73,7 +76,7 @@ const M3UUpload = ({
                   >
                     <Button>Choose File</Button>
                   </Upload>
-                  {displayProgressBar(progress)}
+                  {displayProgressBar()}
                   {displayTable()}
                   {displayNotification()}
                 </TabPane>

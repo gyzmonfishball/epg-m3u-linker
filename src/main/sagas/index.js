@@ -26,6 +26,7 @@ function* processM3U(action) {
 
     const channels = [];
     const store = getStore();
+    const filesize = value.size;
 
     let count = 0;
     let key = 0;
@@ -61,11 +62,12 @@ function* processM3U(action) {
       }, 
       (data) => {
         count += data.length;
-        store && store.dispatch(_set_pending_m3u_progress(count/value.size*100));
+        const progress = (count/filesize) * 100;
+        store && store.dispatch(_set_pending_m3u_progress(progress));
       });
       
-      yield put(_set_pending_m3u(channels))
-      yield put(_set_pending_m3u_status({status: SUCCESS, message: 'M3U file successfully imported'}))
+      yield put(_set_pending_m3u(channels));
+      yield put(_set_pending_m3u_status({status: SUCCESS, message: 'M3U file successfully imported'}));
       
 
   } catch (e) {
