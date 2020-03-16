@@ -1,6 +1,6 @@
 import { all, takeEvery, put, select } from 'redux-saga/effects';
 
-import { UPLOAD_M3U, GET_PROGRESS, _set_pending_m3u, _set_pending_m3u_progress } from '../../shared/actionCreators/m3u'
+import { UPLOAD_M3U, _set_pending_m3u, _set_pending_m3u_progress } from '../../shared/actionCreators/m3u'
 import { readFileByLine } from '../utils';
 import { M3UPROPMAP } from '../utils/constants';
 import { getStore } from '../store';
