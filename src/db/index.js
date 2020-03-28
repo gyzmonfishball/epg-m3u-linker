@@ -17,7 +17,6 @@ function DB (options) {
     }
 
     this._connect = () => new sqlite3.Database(_config.path, _config.openOpts, err => { 
-        console.log('hello');
         this._handleResponse(err, 'Connected to main database')
     });
 

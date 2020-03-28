@@ -1,33 +1,32 @@
 import Model from '..';
 
-const WebgrabRetry = new Model({
-    tblConfig: {
-        name: 'tbl_webgrabretry',
-        columns: [
-            { name: 'id', type: 'INTEGER', primaryKey: true },
-            { name: 'channel_delay', type: 'INTEGER' },
-            { name: 'index_delay', type: 'INTEGER' },
-            { name: 'show_delay', type: 'INTEGER' },
-            { name: 'time_out', type: 'INTEGER' }
-        ]
-    },
-    graphQLConfig: {
-        models: [
-            {
-                name: 'WebgrabRetry',
-                fields: [
-                    { name: 'id', type: 'ID!'},
-                    { name: 'channelDelay', type: 'Int' },
-                    { name: 'indexDelay', type: 'Int' },
-                    { name: 'showDelay', type: 'Int' },
-                    { name: 'timeOut', type: 'Int' },
-                ]
-            }
-        ],
-        queries: [
-           { name: 'getRetry', params: 'id: ID!', type: 'WebgrabRetry' } 
-        ]
-    }
-});
+const tblConfig = {
+    name: 'tbl_webgrabretry',
+    columns: [
+        { name: 'id', type: 'INTEGER', primaryKey: true },
+        { name: 'channel_delay', type: 'INTEGER' },
+        { name: 'index_delay', type: 'INTEGER' },
+        { name: 'show_delay', type: 'INTEGER' },
+        { name: 'time_out', type: 'INTEGER' }
+    ]
+};
 
-export default WebgrabRetry;
+const graphQLConfig = {
+    models: [
+        {
+            name: 'WebgrabRetry',
+            fields: [
+                { name: 'id', type: 'ID!'},
+                { name: 'channelDelay', type: 'Int' },
+                { name: 'indexDelay', type: 'Int' },
+                { name: 'showDelay', type: 'Int' },
+                { name: 'timeOut', type: 'Int' },
+            ]
+        }
+    ],
+    queries: [
+       { name: 'getRetry', params: 'id: ID!', type: 'WebgrabRetry' } 
+    ]
+};
+
+export default new Model({ tblConfig, graphQLConfig });
