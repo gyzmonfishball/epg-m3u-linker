@@ -49,6 +49,14 @@ const M3UUpload = ({
     onSuccess("ok");
   }, 1);
 
+  const renderUpload = () => 
+    <Upload
+      accept=".m3u"
+      customRequest={customRequest}
+    >
+      <Button>Choose M3U File</Button>
+    </Upload>
+
   const renderUploadForm = () =>
     channels && status === SUCCESS &&
     <span>
@@ -75,12 +83,7 @@ const M3UUpload = ({
             <Row>
               <Tabs defaultActiveKey="upload">
                 <TabPane tab="Upload" key="upload">
-                  <Upload
-                    accept=".m3u"
-                    customRequest={customRequest}
-                  >
-                    <Button>Choose M3U File</Button>
-                  </Upload>
+                  {renderUpload()}
                   {renderProgressBar()}
                   {renderUploadForm()}
                   {renderNotification()}
