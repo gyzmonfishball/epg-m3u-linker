@@ -4,6 +4,7 @@ import { Row, Upload, Button, Progress, Tabs } from 'antd';
 
 import Table from '../../components/table/EditableTable';
 import Notification from '../../components/Notification';
+import UploadForm from '../../components/form/UploadForm';
 
 import Layout from '../Layout';
 
@@ -34,6 +35,10 @@ const generateTableColumns = fields => fields.map(field => ({
   editable: true,
 }));
 
+const onSubmit = values => {
+  console.log(values);
+}
+
 const M3UUpload = ({
   m3u_upload: { progress, channels, fields, status: { status, message, description } },
   actions: { upload, setChannels }
@@ -44,15 +49,15 @@ const M3UUpload = ({
     onSuccess("ok");
   }, 1);
 
-  const renderTable = () =>
+  const renderUploadForm = () =>
     channels && status === SUCCESS &&
     <span>
-      <Table
-        cols={generateTableColumns(fields)}
-        data={channels}
-        setData={data => setChannels(data)}
-      />;
-      <Button type="primary">Finalise Import</Button>
+      <UploadForm onSubmit={onSubmit} />
+      <Table 
+          cols={generateTableColumns(fields)}
+          data={channels}
+          setData={data => setChannels(data)}
+        />
     </span>
 
   const renderNotification = () =>
@@ -74,10 +79,10 @@ const M3UUpload = ({
                     accept=".m3u"
                     customRequest={customRequest}
                   >
-                    <Button>Choose File</Button>
+                    <Button>Choose M3U File</Button>
                   </Upload>
                   {renderProgressBar()}
-                  {renderTable()}
+                  {renderUploadForm()}
                   {renderNotification()}
                 </TabPane>
                 <TabPane tab="Download" key="download">
